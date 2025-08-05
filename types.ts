@@ -1,3 +1,6 @@
+// Dev Agent - Types
+
+// Roadmap paths
 export type TopicPath =
   | 'html'
   | 'css'
@@ -39,3 +42,21 @@ export interface RoadmapStep {
   description: string;
   path: TopicPath;
 }
+
+// Navigation stack params (React Navigation v6)
+// types.ts
+export type RootStackParamList = {
+  Home: undefined;
+  Roadmap: { topic: string };
+  Quiz: { quizId: string };
+  QuizAdmin: undefined;
+  AddQuiz: undefined;
+  ViewQuizzes: undefined;
+  QuizDetails: { quizId: string };
+  QuizQuestions: { quizId: string }; // ✅ Required param
+  TutorChatbot: undefined;
+  DSAMastery: undefined;
+  Tutorials: undefined;
+  News: undefined;
+  QuizHome: undefined;
+};

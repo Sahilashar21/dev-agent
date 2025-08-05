@@ -1,16 +1,16 @@
 import axios from 'axios';
 import { useState } from 'react';
 import {
-    ActivityIndicator,
-    Button,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  ActivityIndicator,
+  Button,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from 'react-native';
 
-const GEMINI_API_KEY = 'AIzaSyCtuMoqszvl0tyjtf8tkTfLn4XhFJ0vPE0'; // Replace with your Gemini API key
+const GEMINI_API_KEY = 'AIzaSyCtuMoqszvl0tyjtf8tkTfLn4XhFJ0vPE0';
 
 const ChatScreen = () => {
   const [messages, setMessages] = useState<{ sender: 'user' | 'bot'; text: string }[]>([]);

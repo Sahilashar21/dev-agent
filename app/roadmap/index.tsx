@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { View, ScrollView, Text, StyleSheet } from 'react-native';
-import RNPickerSelect from 'react-native-picker-select';
 import RoadmapCard from '@/components/roadmapCard';
 import { useTheme } from '@/constants/theme';
+import { useState } from 'react';
+import { ScrollView, Text } from 'react-native';
+import RNPickerSelect from 'react-native-picker-select';
 
-import { frontendRoadmap } from '@/data/frontendRoadmap';
 import { backendRoadmap } from '@/data/backendRoadmap';
-import { fullstackRoadmap } from '@/data/fullstackRoadmap';
 import { dsaRoadmap } from '@/data/dsaRoadmap';
-import { RoadmapStep } from '@/types'; // ✅ import type
+import { frontendRoadmap } from '@/data/frontendRoadmap';
+import { fullstackRoadmap } from '@/data/fullstackRoadmap';
+import { RoadmapStep } from '@/types';
 
 const roadmapOptions = [
   { label: 'Frontend', value: 'frontend' },
