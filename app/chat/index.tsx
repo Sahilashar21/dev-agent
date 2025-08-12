@@ -9,6 +9,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
+import Markdown from 'react-native-markdown-display'; // ✅ Markdown import
 
 const GEMINI_API_KEY = 'AIzaSyCtuMoqszvl0tyjtf8tkTfLn4XhFJ0vPE0';
 
@@ -84,19 +85,25 @@ User: ${userMessage}
     <View style={styles.container}>
       <ScrollView style={styles.chatBox}>
         {messages.map((msg, index) => (
-          <Text
+          <View
             key={index}
             style={[
-              styles.message,
+              styles.messageBubble,
               msg.sender === 'user' ? styles.userMessage : styles.botMessage,
             ]}
           >
-            {msg.sender === 'user' ? 'You: ' : 'Dev Agent AI: '}
-            {msg.text}
-          </Text>
+            {msg.sender === 'user' ? (
+              <Text style={styles.userText}>You: {msg.text}</Text>
+            ) : (
+              <Markdown style={markdownStyles}>
+                {`**Dev Agent AI:** ${msg.text}`}
+              </Markdown>
+            )}
+          </View>
         ))}
         {loading && <ActivityIndicator size="small" color="#3D5AFE" />}
       </ScrollView>
+
       <View style={styles.inputContainer}>
         <TextInput
           value={input}
@@ -121,20 +128,22 @@ const styles = StyleSheet.create({
     flex: 1,
     marginBottom: 10,
   },
-  message: {
+  messageBubble: {
     marginVertical: 4,
-    fontSize: 16,
-    padding: 6,
-    borderRadius: 6,
+    padding: 8,
+    borderRadius: 8,
+    maxWidth: '90%',
   },
   userMessage: {
     alignSelf: 'flex-end',
     backgroundColor: '#D1C4E9',
-    color: '#000',
   },
   botMessage: {
     alignSelf: 'flex-start',
-    backgroundColor: '#BBDEFB',
+    backgroundColor: '#E3F2FD',
+  },
+  userText: {
+    fontSize: 16,
     color: '#000',
   },
   inputContainer: {
@@ -150,3 +159,43 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
 });
+
+const markdownStyles = {
+  body: {
+    fontSize: 15,
+    color: '#333',
+  },
+  strong: {
+    fontWeight: 'bold',
+  },
+  code_inline: {
+    backgroundColor: '#eeeeee',
+    borderRadius: 4,
+    paddingHorizontal: 4,
+    paddingVertical: 2,
+    fontFamily: 'monospace',
+    color: '#000',
+  },
+  code_block: {
+    backgroundColor: '#f4f4f4',
+    padding: 10,
+    borderRadius: 6,
+    fontFamily: 'monospace',
+    fontSize: 14,
+  },
+  heading1: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#1E88E5',
+    marginBottom: 6,
+  },
+  heading2: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#3949AB',
+    marginBottom: 4,
+  },
+  bullet_list: {
+    marginVertical: 8,
+  },
+};
