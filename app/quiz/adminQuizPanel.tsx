@@ -2,12 +2,12 @@
 import { addDoc, collection } from 'firebase/firestore';
 import { useState } from 'react';
 import {
-    Button,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  Button,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from 'react-native';
 import { db } from '../../firebase/firebaseConfig'; // make sure db is exported from here
 

@@ -1,0 +1,5665 @@
+[
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "What is the correct HTML element for inserting a line break?",
+    "options": [
+      {
+        "id": "1",
+        "text": "<br>",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "<lb>",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "<break>",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "<newline>",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The '<br>' tag is used to insert a single line break in HTML."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "Which of the following is used to include an external JavaScript file?",
+    "options": [
+      {
+        "id": "1",
+        "text": "<script href='script.js'>",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "<script src='script.js'>",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "<js src='script.js'>",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "<script link='script.js'>",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'src' attribute in the '<script>' tag specifies the URL of an external script file."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "How do you select an element with id 'header' in CSS?",
+    "options": [
+      {
+        "id": "1",
+        "text": ".header",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "#header",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "header",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "*header",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "In CSS, the hash symbol '#' is used to select an element by its ID."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "What is the purpose of the 'DOCTYPE' declaration in HTML?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To define the HTML version",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "To specify the document's language",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To link to a stylesheet",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To declare a JavaScript function",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'DOCTYPE' declaration is an instruction to the web browser about what version of HTML the page is written in."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "Which operator is used for 'not equal to' in JavaScript?",
+    "options": [
+      {
+        "id": "1",
+        "text": "!==",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "<>",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "==",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "!=",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The '!=' operator checks for loose inequality, while '!=' checks for strict inequality (value and type)."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "What is the correct way to add a background color in CSS?",
+    "options": [
+      {
+        "id": "1",
+        "text": "background-color: #f0f0f0;",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "bgcolor: #f0f0f0;",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "color-background: #f0f0f0;",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "background: #f0f0f0;",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'background-color' property is the standard way to set the background color of an element in CSS."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "Which HTML tag is used to define an internal stylesheet?",
+    "options": [
+      {
+        "id": "1",
+        "text": "<css>",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "<style>",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "<link>",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "<script>",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The '<style>' element is used to contain CSS code for an internal stylesheet."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      {
+        "id": "1",
+        "text": "function = myFunction()",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "function myFunction()",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "function:myFunction()",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "myFunction = function()",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The standard syntax for a named function in JavaScript is 'function functionName() {}'."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is the difference between 'let', 'const', and 'var'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "'var' is function-scoped, while 'let' and 'const' are block-scoped. 'const' cannot be reassigned.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "They are all block-scoped but have different hoisting behaviors.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "'let' and 'const' are the same, but 'var' is older.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "They all have the same scope and can be reassigned.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The main difference lies in their scope and reassignment. 'var' is function-scoped and can be hoisted. 'let' and 'const' are block-scoped and were introduced in ES6. 'const' is also a constant and cannot be reassigned."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is 'event bubbling' in JavaScript?",
+    "options": [
+      {
+        "id": "1",
+        "text": "The process of an event propagating from the outer element to the inner element",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The process of an event propagating from the inner element to the outer element",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to stop event propagation",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A way to handle events in a synchronous manner",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Event bubbling is a type of event propagation where the event first triggers on the innermost element, and then 'bubbles up' to its parent, then its parent's parent, and so on."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is the purpose of the 'box-sizing' CSS property?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To change the shape of an element's box",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To include padding and border in the element's total width and height",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To align an element horizontally",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To create shadows around a box",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "When 'box-sizing: border-box;' is applied, an element's padding and border are included in the element's width and height. This makes it easier to manage layout and sizing."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "In React, what is the 'virtual DOM'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A lightweight copy of the real DOM that's kept in memory and used for diffing",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A tool for debugging React applications",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A new way to write HTML and CSS",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A feature that allows for server-side rendering",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The virtual DOM is a programming concept where a virtual representation of a UI is kept in memory and synced with the real DOM. This allows for more efficient updates to the UI."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is the purpose of 'async/await' in JavaScript?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To handle synchronous code in a simpler way",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To write asynchronous code that looks and behaves like synchronous code",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To define new CSS properties",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To define a new HTML element",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'async/await' syntax, introduced in ES2017, is a cleaner and more readable way to handle promises and asynchronous operations."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is the purpose of a 'key' prop in a React list?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To add a unique CSS class to each list item",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To uniquely identify each item in the list and help React optimize updates",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To define the order of the list items",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To attach an event listener to each list item",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A 'key' is a special string attribute you need to include when creating lists of elements in React. It helps React identify which items have changed, are added, or are removed."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "How do you make an element's position fixed relative to the viewport?",
+    "options": [
+      {
+        "id": "1",
+        "text": "position: absolute;",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "position: relative;",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "position: fixed;",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "position: static;",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "An element with 'position: fixed;' is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is a 'closure' in JavaScript?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A function that has access to its outer function's scope even after the outer function has returned",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A way to define a private variable in a class",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A function that is used to close a window",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A type of loop that iterates over an array",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A closure is the combination of a function bundled together with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'hoisting' in JavaScript.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Variables and function declarations are moved to the top of their scope during compilation.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A method to lift an element from the DOM and move it to a different position.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A way to declare variables that are only accessible in a specific block of code.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A technique to optimize the performance of a website.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope (function or global) during the compilation phase, before code execution."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What are 'Shadow DOM', 'Custom Elements', and 'HTML Templates' collectively known as?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Progressive Web Apps",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Service Workers",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Web Components",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "React Hooks",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Shadow DOM, Custom Elements, and HTML Templates are the three main specifications that make up Web Components, a set of standards for creating reusable UI widgets."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is a 'thunk' in the context of Redux?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A middleware that allows you to write action creators that return a function instead of an action object.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A type of reducer function that handles asynchronous operations.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A special type of component in React that handles state management.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A tool used for debugging Redux state changes.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A Redux Thunk is a middleware that lets you call action creators that return a function instead of an action object. This function receives the store's 'dispatch' and 'getState' methods as arguments, allowing for asynchronous logic to be executed."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "How does 'CSS-in-JS' work and what is its main advantage?",
+    "options": [
+      {
+        "id": "1",
+        "text": "It compiles CSS files into JavaScript at build time, improving performance.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "It embeds CSS directly into HTML, making the code easier to read.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "It uses JavaScript to generate CSS styles, providing dynamic styling and preventing class name collisions.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "It's a preprocessor like Sass that uses JavaScript syntax.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "CSS-in-JS is a technique for styling components using JavaScript. It allows for dynamic, scoped styling, and libraries like Styled-components or Emotion generate unique class names, which prevents style collisions."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "In the context of 'flexbox', what is the difference between 'align-items' and 'align-content'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "'align-items' aligns a single row of items, while 'align-content' aligns multiple lines of flex items.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "'align-items' aligns items along the main axis, and 'align-content' aligns them along the cross axis.",
+        "isCorrect": false
+      },
+      {
+      "id": "3",
+        "text": "'align-items' works only on the parent container, while 'align-content' works on the child items.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "They both do the same thing, but 'align-content' is an older property.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "'align-items' controls the alignment of items on the cross axis within a single line. 'align-content' controls the alignment of the entire set of lines on the cross axis when there is extra space in the container."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is the purpose of the 'webpack-dev-server' and how does it work?",
+    "options": [
+      {
+        "id": "1",
+        "text": "It's a production server for deploying React applications.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "It's a development server that serves files from a webpack-bundled directory, providing features like live reloading.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "It is a tool to optimize CSS and JavaScript files for production.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It is a static file server with no additional features.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'webpack-dev-server' is a lightweight development server that provides features like hot module replacement (HMR), allowing changes to be viewed in the browser without a full page reload."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "In JavaScript, what is the 'call' method used for?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To create a new function with a different scope.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To invoke a function with a specified 'this' context and arguments passed individually.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To copy a function to a new variable.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To execute a function after a certain delay.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'call()' method invokes a function with a specified 'this' value and arguments provided individually. It's often used to 'borrow' methods from other objects."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "Explain 'Server-Side Rendering (SSR)' in the context of modern frontend frameworks like Next.js.",
+    "options": [
+      {
+        "id": "1",
+        "text": "The process of rendering a webpage in the browser after it has been fully loaded.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The process of generating the full HTML for a page on the server and sending it to the client, improving initial load time and SEO.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to cache static files on a content delivery network (CDN).",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A way to dynamically load components on a page to save bandwidth.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Server-side rendering (SSR) is a technique where the initial rendering of a page is done on the server. The server sends a fully-rendered HTML page to the client, which allows for faster initial load times and better search engine optimization (SEO)."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is the 'Same-Origin Policy' and why is it important for frontend security?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A security measure that allows a website to only load resources from its own server.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A protocol that prevents a script on one page from accessing data from a different origin, mitigating attacks like cross-site scripting (XSS).",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A rule that enforces the use of HTTPS for all website connections.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A policy that requires all frontend code to be written in a single file.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Same-Origin Policy is a critical security mechanism that restricts how a document or script loaded from one origin can interact with a resource from another origin. This prevents malicious scripts from accessing sensitive data on other websites."
+  },
+
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "Which of the following is an example of a backend programming language?",
+    "options": [
+      {
+        "id": "1",
+        "text": "HTML",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "CSS",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "JavaScript (Node.js)",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "Swift",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "While JavaScript is a frontend language, its runtime environment Node.js allows it to be used for server-side development, making it a popular backend language."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "What is the primary function of a web server?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To create the visual layout of a website",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To handle client-side scripts and user interactions",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To serve website content and handle requests from clients",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "To manage the website's database",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A web server's main role is to accept requests from a client (like a web browser) and respond by serving web pages, images, and other files."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "Which HTTP method is used to retrieve data from a server?",
+    "options": [
+      {
+        "id": "1",
+        "text": "POST",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "GET",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "PUT",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "DELETE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The GET method is used to request data from a specified resource. It's one of the most common HTTP methods."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "What is an API?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A physical connection between two computers",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A tool for debugging frontend code",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A set of rules that allows different software applications to communicate with each other",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "A type of database used for storing user data",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "An API, or Application Programming Interface, is a set of definitions and protocols for building and integrating software applications. It defines how software components should interact."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "What is the purpose of a 'router' in a backend framework?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To manage a website's network traffic",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To define the application's user interface",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To direct incoming requests to the correct controller or handler",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "To handle database connections",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "In web frameworks, routing is the process of defining application endpoints (URIs) and their responses. The router directs incoming HTTP requests to the appropriate code that handles the request."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is a 'middleware' in a backend application?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A function that is executed on the frontend before a request is sent",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A function that has access to the request and response objects and can modify them or terminate the request-response cycle",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A piece of code that connects the backend to the database",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A client-side library for handling API calls",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Middleware functions are functions that have access to the request object, the response object, and the next middleware function in the application’s request-response cycle. They can be used for logging, authentication, and more."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is the difference between synchronous and asynchronous code execution?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Synchronous code runs in parallel, while asynchronous code runs sequentially.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Synchronous code blocks the main thread, waiting for an operation to complete, while asynchronous code allows the main thread to continue execution.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "Asynchronous code is only used on the frontend, and synchronous code is only used on the backend.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no difference; they are different terms for the same concept.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Synchronous code is executed line by line, and each operation must wait for the previous one to finish. Asynchronous code allows the program to continue executing other tasks while a long-running operation, like a network request, is being performed in the background."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is the purpose of an ORM (Object-Relational Mapper)?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To optimize the performance of a website's frontend.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To translate database records into objects in a programming language, and vice versa, without writing raw SQL.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To handle user authentication and authorization.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To manage the dependencies of a project.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "An ORM is a technique that lets you query and manipulate data from a database using an object-oriented paradigm. It abstracts away the need to write raw SQL queries, making database interactions simpler and more maintainable."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "Which of the following is an example of a NoSQL database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "MySQL",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "PostgreSQL",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "MongoDB",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "Oracle Database",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "MongoDB is a document-oriented NoSQL database. MySQL and PostgreSQL are examples of relational (SQL) databases."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is a 'RESTful API'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "An API that uses only the POST method for all operations.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An API that follows the principles of Representational State Transfer (REST) and uses standard HTTP methods.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "An API that is used exclusively for social media applications.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "An API that is only accessible on a local network.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A RESTful API is an API that conforms to the constraints of REST architecture. It's a stateless, client-server architecture that uses standard HTTP methods to perform operations on resources."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is the main purpose of a `package.json` file in a Node.js project?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To store the application's source code.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To define the project's metadata, scripts, and dependencies.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To manage the database schema.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To configure the web server's firewall.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The `package.json` file is a manifest file for a Node.js project. It contains information like the project's name, version, author, and a list of all its dependencies and scripts."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is 'CORS' and why is it important for backend development?",
+    "options": [
+      {
+        "id": "1",
+        "text": "It's a security protocol that encrypts all data sent over the network.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "It's a mechanism that allows a server to indicate any origins other than its own from which a browser should permit loading of resources.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "It's a method for creating a cache for API responses.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It's a way to compress images for faster loading.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Cross-Origin Resource Sharing (CORS) is a security feature that allows a server to specify who can access its resources. It's essential to enable CORS when a frontend application on a different domain needs to communicate with your backend API."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is the difference between 'monolithic' and 'microservices' architecture?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A monolithic application is a single, indivisible unit, while a microservices architecture is a collection of small, independent services.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "Microservices are always faster and more scalable than monolithic applications.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Monolithic architecture is used for simple applications, and microservices are for complex ones.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no significant difference, just a different naming convention.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A monolithic architecture is built as a single, unified unit. In contrast, a microservices architecture is an approach where a single application is composed of many loosely coupled, independently deployable services."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'statelessness' in a RESTful API.",
+    "options": [
+      {
+        "id": "1",
+        "text": "The server stores the client's session information between requests.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The server does not store any client context between requests; each request contains all the information needed to process it.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "The API never returns any data to the client.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "The API can only be used by a single client at a time.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Statelessness means that the server does not hold any information about the client's state. Each request from a client to the server must contain all the information necessary for the server to understand and fulfill the request."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is a 'JWT' and what is its purpose?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A JavaScript Web Tool, used for building web applications.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A JSON Web Token, used to securely transmit information between parties as a JSON object, often for authentication.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A Java Web Transport, a protocol for transferring data over the internet.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A Javascript Widget Toolkit, a library for building user interfaces.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A JWT (JSON Web Token) is a standard for creating tokens that assert claims about a user. They are used for stateless authentication and authorization, allowing a server to verify the authenticity of a token without a database lookup."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "Explain the 'N+1 query problem' in the context of ORMs.",
+    "options": [
+      {
+        "id": "1",
+        "text": "It's an issue where the ORM makes one query to get a list of objects, and then an additional query for each object in the list.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "It's a bug that prevents the database from connecting to the server.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "It's a security vulnerability that allows unauthorized access to a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It's a problem with database migrations that causes data loss.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The N+1 query problem is a common performance issue where a program makes one query to retrieve a collection of items, and then, in a loop, makes N additional queries to get related data for each item. This can be very inefficient."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is 'memoization' and how can it be used in backend development?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A technique for compressing data before sending it over the network.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An optimization technique that caches the results of expensive function calls and returns the cached result when the same inputs occur again.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method for encrypting user passwords before storing them in a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A way to automatically generate documentation for an API.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Memoization is a specific form of caching that can significantly improve performance by storing and reusing the results of previous function calls, particularly for functions that are computationally expensive or called with the same arguments repeatedly."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is the 'CAP Theorem' and what does it imply for distributed systems?",
+    "options": [
+      {
+        "id": "1",
+        "text": "It states that a distributed system can only provide two of three guarantees: Consistency, Availability, and Partition Tolerance.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "It states that all distributed systems must be consistent and available at all times.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "It's a theorem for optimizing database queries in a distributed environment.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It's a security principle for preventing unauthorized access to a network.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The CAP Theorem is a fundamental principle in distributed computing that states it is impossible for a distributed data store to simultaneously provide more than two out of three guarantees: Consistency, Availability, and Partition Tolerance."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is a 'thread pool' and why is it used in web servers?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A data structure for storing user session information.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A collection of threads that are created and maintained to perform a specific task, reducing the overhead of creating new threads for each request.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A log file that records all incoming requests to a server.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A technique for compressing data sent from the server to the client.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A thread pool is a group of pre-initialized threads that are ready to perform tasks. Web servers use them to handle a large number of concurrent client requests efficiently, avoiding the performance cost of creating and destroying a thread for every single request."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is a 'reverse proxy' and how does it differ from a 'forward proxy'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A reverse proxy sits behind a firewall and forwards requests from clients to servers, while a forward proxy sits between clients and the internet.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A reverse proxy is a client-side technology, and a forward proxy is a server-side technology.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "They are the same thing, just with different names.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A reverse proxy is used for security, and a forward proxy is for performance.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A reverse proxy is a server that takes requests from a client and forwards them to a different server. A forward proxy is a server that retrieves resources on behalf of a client from other servers."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "In a SQL database, what is an 'ACID transaction'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A transaction that is encrypted for security purposes.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A transaction that has four properties: Atomicity, Consistency, Isolation, and Durability.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A transaction that can be easily undone if an error occurs.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A transaction that is used for administrative tasks only.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ACID is an acronym for Atomicity, Consistency, Isolation, and Durability. It is a set of properties that guarantee that database transactions are processed reliably."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is 'Serverless architecture' and what is its main advantage?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A backend that uses no servers at all.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A cloud computing execution model where the cloud provider manages the server, and the user pays only for the resources they consume.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A way to write code that runs directly on the client's browser.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A framework for building microservices.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Serverless architecture allows developers to build and run applications without having to manage servers. The cloud provider handles all the server management, and the user pays based on usage, not server uptime."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is the difference between 'GraphQL' and 'REST'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "GraphQL requires a new API endpoint for every resource, while REST uses a single endpoint.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "REST is a query language, while GraphQL is an architectural style.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "REST is based on a fixed set of endpoints, while GraphQL allows the client to request exactly the data it needs with a single query.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "GraphQL is a newer version of REST.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "REST APIs are resource-oriented, with multiple endpoints, often leading to over-fetching or under-fetching of data. GraphQL, on the other hand, is a query language that lets clients ask for exactly the data they need from a single endpoint, reducing the amount of data transferred."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is the primary role of a 'message queue' in a backend system?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To store and retrieve data from a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To handle user authentication and authorization.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To provide a buffer for asynchronous communication between different parts of a system.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "To manage the website's visual layout and design.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A message queue is a form of asynchronous service-to-service communication used in serverless and microservices architectures. It decouples the sending and receiving of data, making the system more resilient and scalable."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "In a distributed system, what is 'eventual consistency'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "All nodes in the system are always consistent.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A model where all reads from a distributed system will eventually return the latest written value once a certain period of time has passed.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A state where the data is never consistent across all nodes.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method to enforce consistency across a database instantly.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Eventual consistency is a consistency model used in distributed computing. It guarantees that if no new updates are made to a given data item, all reads of that item will eventually return the last updated value."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is the purpose of a 'Docker' container in backend development?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To manage a website's domain name.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To package an application and all its dependencies into a single, isolated unit that can be run on any environment.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To create a virtual server for a local machine.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To write API endpoints in a new programming language.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A Docker container is a lightweight, standalone, executable package of software that includes everything needed to run an application. This ensures the application runs consistently regardless of the environment."
+  },
+
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "In a relational database, what is a unique identifier for a record called?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Foreign Key",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Candidate Key",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Primary Key",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "Secondary Key",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A primary key is a column or a set of columns in a table that uniquely identifies each row. It must contain unique values and cannot have NULL values."
+  },
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "Which of the following is an example of a NoSQL database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "MySQL",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "PostgreSQL",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Microsoft SQL Server",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "MongoDB",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "MongoDB is a document-oriented database that stores data in flexible, JSON-like documents, making it a popular choice for NoSQL."
+  },
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "What does SQL stand for?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Structured Question Language",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Structured Query Language",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "Simple Query Language",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "Sequential Query Language",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "SQL is a domain-specific language used in programming and managing data held in a relational database management system."
+  },
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "Which of these is used to define the relationship between two tables in a relational database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Primary Key",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Foreign Key",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "Unique Key",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "Composite Key",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A foreign key is a field (or collection of fields) in one table that uniquely identifies a row of another table. It is used to establish and enforce a link between the data in two tables."
+  },
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "What is the purpose of a 'COMMIT' statement in a transaction?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To undo all changes made in the transaction",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To permanently save the changes made in the transaction",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To temporarily save the changes without making them permanent",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To lock a table for exclusive use",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'COMMIT' statement is used to save all changes made in the current transaction, making them a permanent part of the database."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is 'normalization' in the context of a relational database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "The process of making a database faster",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The process of organizing data to reduce redundancy and improve data integrity",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "The process of adding more tables to a database",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "The process of backing up a database",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Database normalization is the process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is the difference between a 'JOIN' and a 'UNION' in SQL?",
+    "options": [
+      {
+        "id": "1",
+        "text": "JOIN combines rows from multiple tables, while UNION combines columns from multiple tables.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "JOIN combines columns from multiple tables, while UNION combines rows from multiple result sets.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "JOIN and UNION are different terms for the same operation.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "JOIN is used for fetching data, and UNION is used for inserting data.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The JOIN clause is used to combine columns from two or more tables based on a related column between them. The UNION operator is used to combine the result sets of two or more SELECT statements."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is a 'transaction' in a database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A single operation on a database",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A sequence of one or more SQL statements that are treated as a single, indivisible unit of work",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A data structure used to store temporary data",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A user's session with a database",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A database transaction is a single unit of work, which either succeeds completely or fails completely. The ACID properties (Atomicity, Consistency, Isolation, Durability) ensure the reliability of transactions."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is the purpose of an 'INDEX' in a database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To enforce a unique constraint on a column",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To speed up data retrieval operations",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To define the data type of a column",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To create a relationship between tables",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A database index is a data structure that improves the speed of data retrieval operations on a database table. It's similar to an index in a book."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is a 'stored procedure'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A precompiled SQL query that is stored in the database",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A function that is used to connect to a database",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A sequence of commands used to create a new table",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method to encrypt data in a database",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again. It's often used for complex or frequently executed database operations."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is a 'view' in a database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A physical copy of a table",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A virtual table based on the result-set of an SQL query",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A tool for visualizing database relationships",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A permission level for a user",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A view is a logical representation of a table that doesn't store any data itself. It's created by a query and can be used to simplify complex queries or provide a security layer."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is the purpose of the 'GROUP BY' clause in SQL?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To sort the result set in ascending or descending order",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To filter records before aggregation",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To combine rows with the same values into summary rows",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "To create a temporary table for a single query",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'GROUP BY' statement is used in conjunction with aggregate functions (like COUNT, MAX, SUM) to group the result-set by one or more columns."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "Explain the 'ACID' properties of a database transaction.",
+    "options": [
+      {
+        "id": "1",
+        "text": "It stands for 'Atomic, Consistent, Isolated, Durable' and ensures reliable transaction processing.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "It stands for 'Access, Connect, Index, Delete' and defines a database's basic operations.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "It's a security protocol for preventing unauthorized database access.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It's a type of database used for scientific research.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "ACID is an acronym for Atomicity, Consistency, Isolation, and Durability. It is a set of properties that guarantee that database transactions are processed reliably."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is a 'database trigger'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A function that is executed automatically when a specified event occurs on a database table.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A type of stored procedure that is called manually by a user.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A physical device that protects a database from cyberattacks.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A scheduled task that runs at a specific time to perform maintenance.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A trigger is a set of SQL statements that is stored in the database catalog. It is executed automatically whenever a specified event (like an 'INSERT', 'UPDATE', or 'DELETE') occurs in a table."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is 'denormalization' and when is it typically used?",
+    "options": [
+      {
+        "id": "1",
+        "text": "The process of organizing data into multiple tables to improve data integrity.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The process of adding redundant data to tables to improve read performance, often at the expense of write performance.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "The process of backing up a database to a remote server.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A type of database used for unstructured data.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Denormalization is the process of adding redundant data to a previously normalized database, often to improve query performance by reducing the need for complex joins. It's a common practice in data warehousing and reporting systems."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'concurrency control' in databases.",
+    "options": [
+      {
+        "id": "1",
+        "text": "A set of techniques for ensuring that multiple transactions can run at the same time without interfering with each other.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A method for encrypting data to prevent unauthorized access.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A tool used to monitor a database's performance.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A process for optimizing SQL queries to run faster.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Concurrency control is a set of mechanisms and techniques used to manage simultaneous access to a database, ensuring that transactions are executed in an isolated and consistent manner."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is the 'CAP Theorem' and what does it imply for database systems?",
+    "options": [
+      {
+        "id": "1",
+        "text": "It states that a distributed database can only provide two of three guarantees: Consistency, Availability, and Partition Tolerance.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "It states that all distributed databases must be consistent and available at all times.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "It's a theorem for optimizing database queries in a distributed environment.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It's a security principle for preventing unauthorized access to a network.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The CAP Theorem is a fundamental principle in distributed computing that states it is impossible for a distributed data store to simultaneously provide more than two out of three guarantees: Consistency, Availability, and Partition Tolerance."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is a 'database shard' and what problem does it solve?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A shard is a backup copy of a database, used for disaster recovery.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A shard is a technique for encrypting data to protect it from attackers.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A shard is a horizontal partition of a database, used to handle a large amount of data and traffic that a single server cannot.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "A shard is a special type of index used to speed up complex queries.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Database sharding is a type of horizontal partitioning that involves splitting a large database into smaller, more manageable parts called shards. It solves the problem of scalability by distributing the data across multiple servers."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "In a database, what is 'Isolation Level'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "The level of data encryption applied to a table.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A setting that controls how and when changes made by one transaction become visible to others.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "The physical separation of database servers to improve security.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A measure of how fast a database can process transactions.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The isolation level is a setting that defines the degree to which a transaction must be isolated from the data modifications made by other concurrent transactions. Different levels offer different trade-offs between performance and data consistency."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is a 'B-Tree' and why is it commonly used for database indexing?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A type of encryption algorithm used for securing database data.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A data structure for organizing large amounts of data for efficient retrieval, especially on disk-based storage.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A protocol for connecting to a database over the internet.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method for backing up a database incrementally.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A B-Tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. It is optimized for disk-based storage and is widely used for database indexes."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'Read-Heavy vs. Write-Heavy' workloads.",
+    "options": [
+      {
+        "id": "1",
+        "text": "A read-heavy workload has a high volume of read operations, while a write-heavy workload has a high volume of write (INSERT, UPDATE, DELETE) operations.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "Read-heavy workloads are for SQL databases, and write-heavy workloads are for NoSQL databases.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Read-heavy workloads are always faster than write-heavy workloads.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "They are different terms for the same concept.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "This distinction is crucial for database design and optimization. A read-heavy application (e.g., a news website) requires a system optimized for fetching data quickly, while a write-heavy one (e.g., a financial trading platform) needs a system that can handle a high volume of concurrent data changes."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is 'Eventual Consistency' and in what types of databases is it commonly found?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A consistency model where all nodes in a distributed system are always instantly consistent.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A consistency model where all nodes will eventually be consistent, but not necessarily at the same time, commonly found in NoSQL databases.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A state where the data is never consistent across all nodes.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method to enforce consistency across a database instantly.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Eventual consistency is a consistency model used in distributed computing that guarantees that if no new updates are made to a given data item, all reads of that item will eventually return the last updated value. This model is often found in NoSQL databases to favor availability and partition tolerance over strict consistency."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is the purpose of a 'subquery' in SQL?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To create a temporary table for a specific query.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A query nested inside another query, used to perform operations that can't be done with a single query.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method for joining two or more tables together.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A way to define a new table in a database.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A subquery (or inner query) is a query within another SQL query. It is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is the difference between a ' clustered index' and a 'non-clustered index'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A clustered index stores the data rows in the same physical order as the index, while a non-clustered index stores the data and index separately.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A clustered index can only be created on a primary key, while a non-clustered index can be created on any column.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A clustered index is used for performance, and a non-clustered index is used for security.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "They are the same thing, just with different names.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A clustered index reorders the physical storage of the table based on the index key, so there can only be one per table. A non-clustered index does not alter the physical order; it's a separate structure with pointers to the data rows, and a table can have multiple non-clustered indexes."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is a 'deadlock' in a database and how is it resolved?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A situation where a query runs indefinitely and must be manually stopped.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A state where two or more transactions are each waiting for the other to release a lock, which is usually resolved by a deadlock detector that terminates one of the transactions.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A security vulnerability that allows unauthorized access to a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "An error that occurs when a table's data types are inconsistent.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A deadlock occurs when two or more transactions are waiting for each other to release a lock on a resource. Most database management systems have a deadlock detector that automatically identifies and resolves deadlocks, typically by rolling back one of the transactions."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "In a distributed database, what is 'sharding'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A method of creating a backup of a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The process of horizontally partitioning a database into multiple smaller parts, each stored on a separate machine.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A security protocol for encrypting data during transit.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A way to automatically generate documentation for a database schema.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sharding is a type of horizontal partitioning that involves splitting a large database into smaller, more manageable parts called shards. Each shard is a complete database in itself, and it is used to scale a database horizontally by distributing data across multiple machines."
+  },
+
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "What is a 'stack' in Data Structures?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A data structure that follows a First-In, First-Out (FIFO) principle",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A linear data structure that follows a Last-In, First-Out (LIFO) principle",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A non-linear data structure used for hierarchical data",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A collection of nodes connected by edges",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A stack is a linear data structure that follows the LIFO (Last-In, First-Out) principle, meaning the last element added is the first one to be removed."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "Which of the following is a non-linear data structure?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Array",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Linked List",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Queue",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "Tree",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Trees and graphs are non-linear data structures because elements are not arranged sequentially. Arrays, linked lists, and queues are linear."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "What is the time complexity of searching for an element in a sorted array using binary search?",
+    "options": [
+      {
+        "id": "1",
+        "text": "O(n)",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "O(n^2)",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "O(log n)",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "O(1)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Binary search works by repeatedly dividing the search interval in half. This logarithmic reduction in the search space results in a time complexity of O(log n)."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "Which data structure is typically used for implementing a LIFO behavior?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Queue",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Stack",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "Linked List",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "Hash Table",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A stack is a linear data structure that follows the LIFO (Last-In, First-Out) principle, making it ideal for tasks like function call management."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "What is the time complexity of adding an element to the end of a dynamic array (like Python's list or C++'s vector)?",
+    "options": [
+      {
+        "id": "1",
+        "text": "O(log n)",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "O(n)",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "O(1) on average",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "O(n log n)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "While adding to a dynamic array can sometimes require a reallocation and copying of all elements (O(n)), on average, it's a constant time operation (O(1)) due to its capacity management."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is the key difference between a `class` and a `struct` in C++?",
+    "options": [
+      {
+        "id": "1",
+        "text": "By default, `class` members are public, while `struct` members are private.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "By default, `class` members are private, while `struct` members are public.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "`class` can have member functions, but `struct` cannot.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "`struct` can be passed by reference, but `class` cannot.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The only difference is the default access specifier. For a `class`, the default is `private`, and for a `struct`, the default is `public`. Both can have member functions and can be passed by value or reference."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is a 'hash collision' in a hash table?",
+    "options": [
+      {
+        "id": "1",
+        "text": "When two different keys generate the same hash value and are mapped to the same index.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "When a hash table is full and a new element cannot be inserted.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "When the hash function takes too long to compute a hash value.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "When a key is not found in the hash table.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A hash collision is a situation that occurs when two distinct input values to a hash function produce the same hash value, which can lead to data loss or incorrect data retrieval if not handled correctly."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "Which of the following sorting algorithms has a worst-case time complexity of O(n^2) but a best-case time complexity of O(n)?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Merge Sort",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Insertion Sort",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "Quick Sort",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "Heap Sort",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Insertion Sort's best-case time complexity is O(n) when the array is already sorted, as it just iterates through the array once. Its worst-case is O(n^2) when the array is sorted in reverse order."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is the main advantage of a 'doubly linked list' over a 'singly linked list'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "It requires less memory.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "It can be traversed in both forward and backward directions.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "It can be accessed by an index like an array.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It does not have to be traversed to find a specific element.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A doubly linked list has a pointer to the previous node in addition to the next node, which allows for traversal in both directions."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is a 'Min-Heap' data structure?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A tree where the value of a parent node is always less than the value of its children.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A tree where the value of a parent node is always greater than the value of its children.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A data structure that follows a First-In, First-Out (FIFO) principle.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A data structure used to store key-value pairs.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "In a Min-Heap, the root element is always the smallest, and the value of each node is less than or equal to the values of its children. This makes finding the minimum element a constant time operation."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is 'memoization' in the context of dynamic programming?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A method to solve a problem by dividing it into smaller sub-problems.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A technique for storing the results of expensive function calls and returning the cached result when the same inputs occur again.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A way to optimize the space complexity of a recursive algorithm.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A technique for converting a recursive solution into an iterative one.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Memoization is a top-down dynamic programming technique that involves caching the results of function calls to avoid recomputing them later. It is used to optimize performance by reducing redundant calculations."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is the key difference between a 'Queue' and a 'Stack'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A Queue is a linear data structure, while a Stack is a non-linear data structure.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A Queue follows the FIFO principle, while a Stack follows the LIFO principle.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A Queue can only store integers, while a Stack can store any data type.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A Queue uses a single pointer, while a Stack uses two pointers.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A Queue is a First-In, First-Out (FIFO) data structure, like a line of people waiting. A Stack is a Last-In, First-Out (LIFO) data structure, like a stack of plates."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "In a 'Graph', what is a 'cycle'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A path that visits every vertex in the graph exactly once.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A path in a graph that starts and ends at the same vertex.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A collection of disconnected vertices.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A path that visits every edge in the graph exactly once.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A cycle is a path that starts and ends at the same vertex, where no other vertex is visited more than once. The presence of cycles can be important for algorithms like topological sort."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is the purpose of a 'priority queue'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To store elements in a specific, user-defined order.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To retrieve elements based on their priority, with the highest priority element being retrieved first.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To handle asynchronous operations in a non-blocking manner.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To store key-value pairs for quick lookup.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A priority queue is a special type of queue where each element has a priority. Elements with higher priority are served before elements with lower priority. It's often implemented using a heap data structure."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'Dynamic Programming'.",
+    "options": [
+      {
+        "id": "1",
+        "text": "A problem-solving method that solves a problem by breaking it down into sub-problems and solving them recursively.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An optimization technique that solves complex problems by breaking them into smaller, overlapping sub-problems and storing their results to avoid re-computation.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A type of algorithm that makes a locally optimal choice at each stage with the hope of finding a global optimum.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A programming paradigm for developing event-driven applications.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Dynamic programming is both a mathematical optimization method and a computer programming method. It solves complex problems by breaking them down into simpler sub-problems and then storing the results of these sub-problems to avoid re-computing them."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the worst-case time complexity of 'Quick Sort'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "O(n log n)",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "O(n^2)",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "O(log n)",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "O(n)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The worst-case time complexity for Quick Sort is O(n^2), which occurs when the pivot element is chosen poorly, for example, if the array is already sorted and the pivot is always the smallest or largest element."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is a 'Trie' data structure, and what is its primary use case?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A self-balancing binary search tree used for fast searching.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A tree-like data structure used for efficient retrieval of a key in a dataset of strings, such as in an autocomplete system.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A data structure for storing graphs with weighted edges.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A linear data structure used for storing elements in a specific order.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A Trie (also known as a prefix tree) is an ordered tree data structure used to store a dynamic set or associative array where the keys are usually strings. It's particularly useful for tasks like autocomplete and spell checkers."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the 'Traveling Salesman Problem' an example of?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A problem that can be solved with a greedy algorithm.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A problem that can be solved with dynamic programming.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "An NP-hard problem, which means there is no known polynomial-time algorithm to solve it.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "A problem that is solvable in constant time.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Traveling Salesman Problem is an NP-hard problem in combinatorial optimization, meaning no efficient algorithm is known that can find the optimal solution for all cases in polynomial time."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is a 'Segment Tree' and what is its main advantage?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A data structure for performing fast searches on a sorted array.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A binary tree used for storing intervals or segments, which allows for efficient range queries and updates.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A graph traversal algorithm for finding the shortest path.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method for encrypting data for secure storage.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A segment tree is a tree data structure used for storing information about intervals or segments. It allows for efficient updates and queries on ranges of data, with a time complexity of O(log n)."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'topological sort' and what kind of graphs it applies to.",
+    "options": [
+      {
+        "id": "1",
+        "text": "A method to find the shortest path in a weighted graph.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A linear ordering of vertices in a directed acyclic graph (DAG) where for every directed edge from vertex 'u' to vertex 'v', 'u' comes before 'v' in the ordering.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "An algorithm for finding the minimum spanning tree of a graph.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A technique for converting a recursive solution into an iterative one.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Topological sort is a linear ordering of vertices such that for every directed edge 'u -> v', vertex 'u' comes before vertex 'v' in the ordering. It is only possible on Directed Acyclic Graphs (DAGs)."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "In a 'Graph', what is the 'Floyd-Warshall algorithm' used for?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To find the shortest path from a single source vertex to all other vertices.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To find the minimum spanning tree of a graph.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To find the shortest paths between all pairs of vertices in a weighted graph.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "To perform a breadth-first search on a graph.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Floyd-Warshall algorithm is a dynamic programming algorithm for finding shortest paths in a directed weighted graph with positive or negative edge weights (but no negative cycles)."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the purpose of the 'Union-Find' (Disjoint Set) data structure?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To store a collection of elements that are partitioned into a number of disjoint (non-overlapping) sets, and to perform operations to find the set an element belongs to and to merge sets.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "To efficiently find the shortest path in a graph.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To sort an array of elements in a specific order.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To manage memory allocation in a heap.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Union-Find data structure is used to keep track of a set of elements partitioned into a number of disjoint subsets. It's used in algorithms like Kruskal's for finding the minimum spanning tree."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the difference between 'Breadth-First Search (BFS)' and 'Depth-First Search (DFS)'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "BFS uses a stack and is more memory-efficient, while DFS uses a queue and is less memory-efficient.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "BFS explores all the neighbor nodes at the present depth before moving on to the nodes at the next depth, while DFS explores as far as possible along each branch before backtracking.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "BFS is used for undirected graphs, and DFS is used for directed graphs.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no functional difference; they are just different names for the same algorithm.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "BFS uses a queue to explore nodes level by level, while DFS uses a stack (or recursion) to explore as deeply as possible along a single branch before backtracking. This leads to different traversal patterns."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the 'master theorem' used for in algorithm analysis?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To prove the correctness of a greedy algorithm.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To solve recurrence relations that arise in the analysis of many divide-and-conquer algorithms.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To determine the best-case time complexity of a sorting algorithm.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To find the minimum spanning tree of a graph.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The master theorem provides a cookbook method for solving recurrence relations of the form $T(n) = aT(n/b) + f(n)$, which are common in divide-and-conquer algorithms like Merge Sort."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is a 'Red-Black Tree' and what is its primary advantage?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A type of linked list that allows for constant-time access to any element.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A self-balancing binary search tree that guarantees a logarithmic time complexity for insertions, deletions, and lookups.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A data structure for storing strings with a focus on prefix matching.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A tree where every node has a pointer to its parent.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A Red-Black Tree is a type of self-balancing binary search tree. Its balancing property ensures that the tree height is always logarithmic, which guarantees O(log n) time complexity for all basic operations."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the 'Knuth-Morris-Pratt (KMP)' algorithm used for?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To find the shortest path in a graph with negative edge weights.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An efficient algorithm for searching for a pattern within a text string.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to compress a file to save storage space.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A sorting algorithm that has a linear time complexity.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The KMP algorithm searches for occurrences of a 'word' W within a main 'text' string S by using a precomputed prefix table to avoid re-checking characters that have already been matched."
+  },
+
+
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "What is the primary function of JavaScript in a web page?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To define the structure of the webpage",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To add interactivity and dynamic behavior",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To style the visual presentation of the webpage",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To handle server-side logic and databases",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and more."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": [
+      {
+        "id": "1",
+        "text": "<link>",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "<a>",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "<href>",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "<url>",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The '<a>' tag, which stands for anchor, is used to create a hyperlink that links to another document or resource."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "Which CSS property is used to control the spacing between letters?",
+    "options": [
+      {
+        "id": "1",
+        "text": "word-spacing",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "letter-spacing",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "text-spacing",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "character-spacing",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'letter-spacing' property in CSS is used to specify the space between the characters in a text."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "In JavaScript, what is the '==' operator used for?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Strict equality, checking both value and type",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Loose equality, checking only for value",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "Assignment, assigning a value to a variable",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "Not equal to, checking for inequality",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The '==' operator checks for loose equality, meaning it will perform type coercion before comparing the values."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "How do you add a comment in an HTML file?",
+    "options": [
+      {
+        "id": "1",
+        "text": "// This is a comment",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "/* This is a comment */",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "# This is a comment",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "HTML comments start with ''. The text between these markers is ignored by the browser."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "Which of the following is a CSS preprocessor?",
+    "options": [
+      {
+        "id": "1",
+        "text": "HTML",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Sass",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "React",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "Webpack",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sass (Syntactically Awesome Style Sheets) is a scripting language that is interpreted or compiled into CSS."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "What is the purpose of the `meta` tag in HTML?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To define the main content of the page",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To link to an external stylesheet",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To provide metadata about the HTML document",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "To create a list of items",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The `meta` tag provides metadata about the HTML document, such as character set, page description, keywords, and viewport settings, which is not displayed on the page itself."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "easy",
+    "question": "What is the correct way to declare an array in JavaScript?",
+    "options": [
+      {
+        "id": "1",
+        "text": "var arr = {};",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "var arr = [];",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "var arr = new Array();",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "var arr = ();",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Arrays in JavaScript are declared using square brackets `[]`."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is the difference between `display: block;` and `display: inline;`?",
+    "options": [
+      {
+        "id": "1",
+        "text": "`block` elements start on a new line and take up the full width, while `inline` elements do not.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "`inline` elements can have a width and height, but `block` elements cannot.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "`block` elements are used for text, while `inline` elements are used for images.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no functional difference, they are just different names.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "`block` elements start on a new line and fill the available width, while `inline` elements only take up as much width as necessary and do not force a new line."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is the purpose of the 'sessionStorage' object in a browser?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To store data that persists even after the browser is closed.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To store data that is only available for the duration of the page session.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To manage the browser's history and navigation.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To store cookies from a website.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "`sessionStorage` stores data for the duration of a single session, meaning it is cleared when the browser tab is closed. This is in contrast to `localStorage`, which persists."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "In React, what are 'props'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A way to manage the state of a component.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A way to pass data from a parent component to a child component.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to handle events in a component.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A tool for debugging React applications.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Props, short for properties, are how components get data from a parent component. They are read-only and immutable."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is the purpose of the 'defer' attribute in a `<script>` tag?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To prevent the script from being executed.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To execute the script after the HTML has been completely parsed.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To execute the script before the HTML is parsed.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To load the script asynchronously, without blocking HTML parsing.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The `defer` attribute tells the browser to download the script file in the background while the HTML parsing continues, and then execute the script once the HTML parsing is complete."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "What is the 'Event Loop' in JavaScript?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A loop that iterates over an array of event listeners.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A mechanism that allows JavaScript to handle asynchronous operations in a non-blocking way.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A type of loop for creating animations.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A function that is called every time an event occurs.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Event Loop is a crucial part of JavaScript's concurrency model. It continuously checks if the Call Stack is empty and if there are any tasks in the Task Queue to be processed."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "How do you define a CSS variable (or custom property)?",
+    "options": [
+      {
+        "id": "1",
+        "text": "var-color: red;",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "--main-color: red;",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "$main-color: red;",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "color-variable: red;",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "CSS custom properties are defined with a double hyphen prefix. They allow you to define a value once and reuse it throughout your stylesheet."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "medium",
+    "question": "In React, what is a 'state'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A way to pass data from a parent component to a child component.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An object that holds data that may change over time and affects how a component renders.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A static value that never changes.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A function that is used to fetch data from an API.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "State is an object that holds data that may be changed over the lifetime of the component. When the state object changes, the component re-renders."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'memoization' in the context of React.",
+    "options": [
+      {
+        "id": "1",
+        "text": "A technique to store data in the browser's local storage.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An optimization technique that caches the result of a function or component and reuses it if the inputs haven't changed.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A way to handle asynchronous operations with Promises.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method to manage the global state of a React application.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "In React, memoization is an optimization technique that prevents a component from re-rendering if its props and state have not changed, which can lead to significant performance improvements."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is a 'Web Worker' and why would you use one?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A tool for debugging JavaScript code in the browser.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A way to run JavaScript in the background on a separate thread, preventing long-running scripts from freezing the UI.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A feature that allows a website to work offline.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A new syntax for writing asynchronous JavaScript.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Web Workers allow a browser to run JavaScript in the background without affecting the performance of the page. This is useful for computationally intensive tasks that would otherwise block the main thread and freeze the user interface."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is 'CORS' and how is it related to the 'Same-Origin Policy'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "CORS is a security protocol that encrypts all data sent over the network.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "CORS is a mechanism that relaxes the Same-Origin Policy, allowing a server to specify who can access its resources from a different origin.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "They are two different names for the same security policy.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "The Same-Origin Policy is for frontend, and CORS is for backend.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "CORS (Cross-Origin Resource Sharing) is a mechanism that gives a web server control over who can access its resources from a different origin. It's a way to bypass the restrictions of the Same-Origin Policy, which by default prevents cross-origin requests."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is 'Tree Shaking' and how does it work in modern JavaScript bundlers?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A process of generating a virtual DOM from a React component tree.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An optimization technique that removes unused code from the final bundle, resulting in smaller file sizes.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to reduce the number of HTTP requests a page makes.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A feature that allows for hot module replacement.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Tree shaking (or dead code elimination) is a form of code optimization where unused code modules or parts of modules are identified and removed from the final JavaScript bundle, significantly reducing the file size."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What are 'Promises' in JavaScript and how do they differ from callbacks?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Promises are a way to manage synchronous code, while callbacks are for asynchronous code.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Promises are objects representing the eventual completion or failure of an asynchronous operation, providing a cleaner way to handle async code than nested callbacks.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "Promises are a new syntax for creating HTML elements, while callbacks are for handling events.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no difference; they are just different names for the same concept.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Promises are a cleaner alternative to callbacks for handling asynchronous operations, helping to avoid 'callback hell' and making the code more readable and maintainable."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is 'SSR' (Server-Side Rendering) and what are its advantages?",
+    "options": [
+      {
+        "id": "1",
+        "text": "The process of rendering a webpage in the browser after it has been fully loaded.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The process of generating the full HTML for a page on the server and sending it to the client, improving initial load time and SEO.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to cache static files on a content delivery network (CDN).",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A way to dynamically load components on a page to save bandwidth.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Server-side rendering (SSR) is a technique where the initial rendering of a page is done on the server. The server sends a fully-rendered HTML page to the client, which allows for faster initial load times and better search engine optimization (SEO)."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is the purpose of the 'z-index' CSS property?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To control the font size of a text.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To specify the stack order of a positioned element and its children.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To set the animation duration of a transition.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To align an element horizontally and vertically.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'z-index' property specifies the stack order of an element. An element with a higher 'z-index' is placed in front of an element with a lower one."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is a 'Service Worker' and what is its primary use case?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A tool for debugging asynchronous JavaScript code.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A script that your browser runs in the background, separate from a web page, enabling features like offline access and push notifications.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A new syntax for writing asynchronous JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method for securely transmitting data over the network.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A Service Worker is a type of web worker that acts as a proxy between web applications, the browser, and the network. It's the key technology behind Progressive Web Apps (PWAs)."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'scope' and the difference between 'local' and 'global' scope in JavaScript.",
+    "options": [
+      {
+        "id": "1",
+        "text": "Scope refers to the lifetime of a variable, with local variables existing only within a function and global variables existing throughout the program.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "Scope is the order in which functions are called, and local and global refer to the order.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Local scope is for variables declared with `var`, and global scope is for variables with `let`.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no difference; all variables have a global scope in JavaScript.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Scope is the accessibility of variables, objects, and functions. Global scope is the entire program, while local scope is created inside a function, and variables declared within it are only accessible inside that function."
+  },
+  {
+    "category": "Frontend",
+    "difficulty": "hard",
+    "question": "What is the purpose of 'transpilation' in frontend development?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To convert a compiled language into an interpreted language.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To convert source code from one programming language to another, such as converting modern JavaScript (ES6+) into older JavaScript (ES5) for wider browser compatibility.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To optimize the performance of a website's CSS.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To compress a website's files for faster loading.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Transpilation is the process of converting source code from one language to another. In frontend development, it is most commonly used to convert modern JavaScript features into a version that can be understood by older browsers."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "What is the HTTP status code for a successful request?",
+    "options": [
+      {
+        "id": "1",
+        "text": "404 Not Found",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "200 OK",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "500 Internal Server Error",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "301 Moved Permanently",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The '200 OK' status code indicates that the request was successful and the server has returned the requested data."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "Which of the following is an HTTP method for creating a new resource on a server?",
+    "options": [
+      {
+        "id": "1",
+        "text": "GET",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "PUT",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "POST",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "DELETE",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The POST method is used to send data to a server to create or update a resource. It's often used for submitting form data."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "What is the purpose of a 'cookie' in a web application?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To store large amounts of data on the server",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To handle asynchronous operations",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To store small pieces of data on the client-side to track a user's session or preferences",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "To encrypt data sent over the network",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Cookies are small text files stored on a user's computer by their web browser. They are used to remember stateful information, such as login information or shopping cart contents."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "In a backend system, what is 'authentication'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Verifying the user's identity",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "Determining what a user is allowed to do",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Logging user activity",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "Encrypting a user's password",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Authentication is the process of verifying that a user is who they claim to be, typically by checking their credentials like a username and password."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "easy",
+    "question": "What is the main role of a 'database driver'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To manage the application's user interface.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To provide an API for an application to communicate with a database.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To optimize SQL queries.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To encrypt data before it is stored in the database.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A database driver is a software component that enables a program to interact with a database management system, translating an application's requests into the database's native language."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is the purpose of 'API Gateway' in a microservices architecture?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To handle the front-end rendering of the application.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To provide a single entry point for all client requests, routing them to the appropriate microservice.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To manage the database connections for all microservices.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To handle asynchronous messaging between services.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "An API Gateway is a server that acts as an API front-end, receiving API requests, enforcing policies, and routing requests to the appropriate backend services."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is a 'session' in web development?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A method to store data on the client-side that persists indefinitely.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A stateful interaction between a client and a server, typically lasting for the duration of a user's visit to a website.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A way to handle asynchronous communication between different parts of a system.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A type of database used for storing temporary data.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A session is a server-side object that stores data about a user for the duration of their interaction with a website, allowing the server to remember the user's state between stateless HTTP requests."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is the difference between 'PUT' and 'PATCH' HTTP methods?",
+    "options": [
+      {
+        "id": "1",
+        "text": "PUT is for creating a new resource, while PATCH is for updating a resource.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "PUT replaces the entire resource with a new representation, while PATCH applies a partial update to a resource.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "PATCH is a newer and more secure version of PUT.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no functional difference; they are different terms for the same concept.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "PUT is used to completely replace an existing resource with a new one. PATCH is used to apply a partial modification to a resource, without sending the entire resource representation."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is 'dependency injection'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A security vulnerability that allows an attacker to inject malicious code.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A design pattern where an object receives other objects that it depends on, rather than creating them itself.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method for managing the dependencies of a project.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A way to automatically generate documentation for an API.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Dependency injection is a powerful design pattern that reduces tight coupling between software components, making the code more modular, testable, and maintainable."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is the purpose of a 'message broker' in a backend system?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To handle the front-end rendering of the application.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To provide a way for different applications or services to communicate asynchronously.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To manage the database connections for all services.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To encrypt data before it is sent over the network.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A message broker is a software module that enables applications, systems, and services to communicate with each other and exchange information. It acts as an intermediary for message delivery."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is the primary role of a 'load balancer'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To optimize the performance of a single server.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To distribute network traffic across multiple servers to ensure no single server is overloaded.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To manage the server's database connections.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To handle user authentication and authorization.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers, ensuring high availability and reliability."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "What is 'idempotence' in the context of API design?",
+    "options": [
+      {
+        "id": "1",
+        "text": "An operation that can be safely called multiple times without changing the result beyond the initial call.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A function that has a unique output for every unique input.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A security protocol that prevents a server from being overloaded.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method to encrypt data before it is sent over the network.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "An idempotent operation is one that can be executed multiple times without producing a different outcome. The PUT and DELETE HTTP methods are examples of idempotent operations, while POST is not."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "medium",
+    "question": "In a backend system, what is 'authorization'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Verifying the user's identity.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Determining what a user is allowed to do and which resources they can access.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "Logging user activity for auditing purposes.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "Encrypting a user's password before storing it.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Authorization is the process of deciding if a verified user has the permissions to access a specific resource or perform a specific action."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is the 'Two-Phase Commit' protocol and what problem does it solve?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A protocol for two-factor authentication in a backend system.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A distributed algorithm that ensures all nodes in a distributed system either commit or abort a transaction together.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method for optimizing database queries in a distributed environment.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A security protocol for preventing unauthorized access to a network.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Two-Phase Commit protocol is a distributed algorithm that ensures that all participants in a distributed transaction either commit or abort the transaction. This solves the problem of data inconsistency across multiple nodes."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "Explain 'Docker' containers and their benefit for backend development.",
+    "options": [
+      {
+        "id": "1",
+        "text": "They are a type of server used for hosting websites.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "They are lightweight, portable, and self-sufficient packages that contain an application and its dependencies, ensuring consistent behavior across different environments.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "They are a type of database used for storing large amounts of data.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "They are a new programming language for building backend applications.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Docker containers provide an isolated environment for applications and their dependencies, which solves the 'it works on my machine' problem and simplifies the deployment process."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is a 'circuit breaker' pattern in microservices?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A pattern for load balancing requests between different microservices.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A design pattern used to prevent cascading failures in a microservices architecture by interrupting the flow of requests when a service is failing.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A security protocol that prevents a single service from being overloaded.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method for encrypting data before it is sent between microservices.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The circuit breaker pattern is a crucial part of a robust microservices architecture. It allows a service to handle failures in dependent services gracefully without leading to a complete system outage."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is the purpose of 'asynchronous I/O' and how does it improve performance?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A way to handle synchronous operations in a simpler way.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "It allows a program to initiate an I/O operation without waiting for it to complete, freeing up the main thread to handle other requests.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to optimize the performance of a single server by using multiple CPUs.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It's a way to encrypt data before it is sent over the network.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Asynchronous I/O is a form of input/output processing that allows a program to continue to execute while the I/O operation is being performed. This is especially important for servers that handle a large number of concurrent connections, as it prevents the server from being blocked by slow I/O operations."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "Explain 'WebSockets' and their primary use case.",
+    "options": [
+      {
+        "id": "1",
+        "text": "A protocol for encrypting data sent from a server to a client.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A full-duplex communication protocol over a single TCP connection, often used for real-time applications like chat or live updates.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A new syntax for writing asynchronous JavaScript.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method to cache static files on a content delivery network (CDN).",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "WebSockets provide a persistent connection between a client and a server, allowing for real-time, two-way communication. This is a significant improvement over traditional HTTP, which is a stateless, request-response protocol."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "In the context of security, what is 'SQL Injection'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A type of attack where a hacker gains access to the database by injecting malicious SQL code into input fields.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A method to optimize SQL queries to run faster.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A tool for debugging database connections.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A process of injecting dependencies into a backend application.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "SQL Injection is a code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g., to dump the database contents to the attacker)."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is 'CORS' and how is it related to the 'Same-Origin Policy'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "CORS is a security protocol that encrypts all data sent over the network.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "CORS is a mechanism that relaxes the Same-Origin Policy, allowing a server to specify who can access its resources from a different origin.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "They are two different names for the same security policy.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "The Same-Origin Policy is for frontend, and CORS is for backend.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "CORS (Cross-Origin Resource Sharing) is a mechanism that gives a web server control over who can access its resources from a different origin. It's a way to bypass the restrictions of the Same-Origin Policy, which by default prevents cross-origin requests."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "In a distributed system, what is 'Idempotency'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A property of a function that, when executed multiple times with the same input, produces the same output and has the same side effects.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A security protocol that prevents a server from being overloaded.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A method to encrypt data before it is sent over the network.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A way to automatically generate documentation for an API.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Idempotency is a property of certain operations in mathematics and computer science, by which they can be applied multiple times without changing the result beyond the initial application. This is crucial for systems that handle retries and can be a key part of designing resilient systems."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is the purpose of a 'Docker-compose' file?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To define the network configuration for a single Docker container.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To define and run multi-container Docker applications, allowing you to define all services in a single file.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To manage the dependencies of a Node.js project.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To build a Docker image from a Dockerfile.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Docker Compose is a tool for defining and running multi-container Docker applications. With a `docker-compose.yml` file, you can configure your application's services, networks, and volumes in a single file."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "In a backend system, what is 'data serialization'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "The process of encrypting data before it is stored in a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The process of converting an object into a format that can be easily transmitted over a network or stored in a file.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A security protocol that prevents unauthorized access to a network.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method for optimizing database queries.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Serialization is the process of translating a data structure or object state into a format that can be stored or transmitted and reconstructed later. JSON and XML are common serialization formats."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "What is the 'Twelve-Factor App' methodology?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A methodology for building backend applications that run on a single server.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A set of principles and best practices for building software-as-a-service (SaaS) applications that are scalable, maintainable, and robust.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A security standard that all backend applications must follow.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A framework for building microservices.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Twelve-Factor App is a methodology for building software-as-a-service applications. It provides a set of principles for building apps that are portable, scalable, and easy to maintain in a modern cloud-native environment."
+  },
+  {
+    "category": "Backend",
+    "difficulty": "hard",
+    "question": "In a distributed system, what is 'eventual consistency'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "All nodes in the system are always consistent.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A model where all reads from a distributed system will eventually return the latest written value once a certain period of time has passed.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A state where the data is never consistent across all nodes.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method to enforce consistency across a database instantly.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Eventual consistency is a consistency model used in distributed computing that guarantees that if no new updates are made to a given data item, all reads of that item will eventually return the last updated value."
+  },
+  
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "Which of the following is a command for creating a new table in SQL?",
+    "options": [
+      {
+        "id": "1",
+        "text": "ALTER TABLE",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "INSERT INTO",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "CREATE TABLE",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "DELETE FROM",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'CREATE TABLE' statement is used to create a new table in a database. It is one of the fundamental DDL (Data Definition Language) commands."
+  },
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "What is the purpose of the 'WHERE' clause in a 'SELECT' statement?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To sort the result set",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To filter records based on a condition",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To group the result set by a column",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To join two tables together",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'WHERE' clause is used to extract only those records that fulfill a specified condition, allowing you to filter the data you retrieve."
+  },
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "What is a 'field' in a database table?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A single record in a table",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A column in a table that represents a specific attribute",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A database schema",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A primary key",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A field is a column in a table that is designed to maintain information about every record in the table. For example, in a 'Students' table, 'Name' and 'Age' would be fields."
+  },
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "What does a 'Foreign Key' do in a relational database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "It uniquely identifies each record in a table.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "It links data between two tables.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "It ensures that a column contains unique values.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It is used for sorting data in a table.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A foreign key is a field (or collection of fields) in one table that uniquely identifies a row of another table. It's the mechanism for establishing relationships between tables."
+  },
+  {
+    "category": "DB",
+    "difficulty": "easy",
+    "question": "What is the purpose of the 'DELETE' statement in SQL?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To remove a table from the database",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To remove a database from the server",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To remove rows from a table",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "To remove a column from a table",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The 'DELETE' statement is used to remove one or more existing records from a table."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is the difference between a 'LEFT JOIN' and an 'INNER JOIN'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A LEFT JOIN returns all records from the right table, while an INNER JOIN returns all records from the left table.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A LEFT JOIN returns all records from both tables, while an INNER JOIN returns only matching records.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A LEFT JOIN returns all records from the left table and the matched records from the right table, while an INNER JOIN returns only the records with matching values in both tables.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "There is no difference; they are different terms for the same operation.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "An INNER JOIN returns only rows that have matching values in both tables. A LEFT JOIN returns all rows from the left table, even if there are no matches in the right table."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is a 'database index' and how does it improve performance?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A type of table that stores a full copy of the database.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A data structure that improves the speed of data retrieval operations by providing quick lookup of rows, similar to a book index.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A security feature that encrypts the data in a table.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A tool used for backing up a database.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A database index is a data structure that provides a way to locate data more efficiently, reducing the need to scan an entire table. It significantly speeds up queries that involve searching, sorting, and joining."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "In a database, what is the purpose of a 'trigger'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To create a backup of a table before an operation.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To automate a sequence of commands when a specific event occurs on a table.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To log all user activity in a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To define the data type of a column.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A database trigger is a special type of stored procedure that is automatically executed in response to certain events on a particular table, such as an `INSERT`, `UPDATE`, or `DELETE`."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is the difference between `TRUNCATE TABLE` and `DELETE FROM`?",
+    "options": [
+      {
+        "id": "1",
+        "text": "They are the same, but `DELETE FROM` is an older command.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "`TRUNCATE` is a DML command and `DELETE` is a DDL command.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "`DELETE` is slower and can be rolled back, while `TRUNCATE` is faster and cannot be rolled back.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "`TRUNCATE` can only delete a single row, while `DELETE` can delete all rows.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "`TRUNCATE TABLE` is a DDL command that removes all rows from a table by deallocating the pages used by the data. `DELETE FROM` is a DML command that removes rows one by one, which is why it can be rolled back."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is a 'stored procedure'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A command to connect to a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A prepared SQL code that can be saved and reused, often for complex or frequent operations.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A type of table that stores temporary data.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A security feature that prevents a user from accessing certain tables.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A stored procedure is a precompiled set of SQL statements that can be executed as a single unit, which improves performance and can enforce business logic."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is the purpose of a 'view' in a database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To store a physical copy of a table.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A virtual table based on the result-set of a SQL query, used to simplify complex queries or restrict data access.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To create a backup of a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To manage the concurrency of a database.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A view is a logical representation of a table. It does not store data itself but provides a way to present data from one or more tables as a single, virtual table."
+  },
+  {
+    "category": "DB",
+    "difficulty": "medium",
+    "question": "What is a 'schema' in the context of a database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A security protocol for a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A logical container for database objects like tables, views, and stored procedures.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A tool for visualizing database relationships.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A physical storage location for database files.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A schema is a collection of logical database objects, such as tables, indexes, and views. It can be thought of as a blueprint of the database."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is 'isolation level' and why is it important for database transactions?",
+    "options": [
+      {
+        "id": "1",
+        "text": "The level of data encryption applied to a table.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A setting that controls how and when changes made by one transaction become visible to others, ensuring data integrity in a concurrent environment.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "The physical separation of database servers to improve security.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A measure of how fast a database can process transactions.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Isolation level defines the degree to which a transaction must be isolated from the data modifications made by other concurrent transactions. It is a critical component of the ACID properties and helps prevent issues like dirty reads and phantom reads."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'denormalization' and when it is used.",
+    "options": [
+      {
+        "id": "1",
+        "text": "The process of organizing data into multiple tables to reduce redundancy.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The process of adding redundant data to tables to improve read performance, often at the expense of write performance, commonly used in data warehousing.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "The process of backing up a database to a remote server.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A type of database used for unstructured data.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Denormalization is the deliberate introduction of redundancy into a database to improve query performance. It is a trade-off where you sacrifice some write efficiency for better read efficiency."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is a 'B-Tree' and why is it commonly used for database indexing?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A data structure for storing an array of sorted data.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A self-balancing tree data structure that maintains sorted data and is optimized for disk-based storage, providing fast searches, insertions, and deletions.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A protocol for connecting to a database over the internet.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A method for backing up a database incrementally.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A B-Tree is a self-balancing tree that is optimized for disk access, as it minimizes the number of disk reads required to find a node. This makes it an excellent choice for a database index."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'concurrency control' in databases.",
+    "options": [
+      {
+        "id": "1",
+        "text": "A set of techniques for ensuring that multiple transactions can run at the same time without interfering with each other, maintaining data integrity.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A method for encrypting data to prevent unauthorized access.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A tool used to monitor a database's performance.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A process for optimizing SQL queries to run faster.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Concurrency control is a set of mechanisms and techniques used to manage simultaneous access to a database, ensuring that transactions are executed in an isolated and consistent manner, preventing data corruption."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is the 'Two-Phase Commit' protocol and what problem does it solve?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A protocol for two-factor authentication in a backend system.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A distributed algorithm that ensures all nodes in a distributed system either commit or abort a transaction together.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method for optimizing database queries in a distributed environment.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A security protocol for preventing unauthorized access to a network.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Two-Phase Commit protocol is a distributed algorithm that ensures that all participants in a distributed transaction either commit or abort the transaction. This solves the problem of data inconsistency across multiple nodes."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is the difference between a 'clustered index' and a 'non-clustered index'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A clustered index stores the data rows in the same physical order as the index, while a non-clustered index stores the data and index separately.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A clustered index can only be created on a primary key, while a non-clustered index can be created on any column.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A clustered index is used for performance, and a non-clustered index is used for security.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "They are the same thing, just with different names.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A clustered index reorders the physical storage of the table based on the index key, so there can only be one per table. A non-clustered index is a separate structure that points to the data, and a table can have multiple non-clustered indexes."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is a 'deadlock' in a database and how is it resolved?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A situation where a query runs indefinitely and must be manually stopped.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A state where two or more transactions are each waiting for the other to release a lock, which is usually resolved by a deadlock detector that terminates one of the transactions.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A security vulnerability that allows unauthorized access to a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "An error that occurs when a table's data types are inconsistent.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A deadlock occurs when two or more transactions are waiting for each other to release a lock on a resource. Most database management systems have a deadlock detector that automatically identifies and resolves deadlocks, typically by rolling back one of the transactions."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is 'sharding' and what problem does it solve in a distributed database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A method of creating a backup of a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The process of horizontally partitioning a database into multiple smaller parts (shards), each stored on a separate machine to handle a large amount of data and traffic.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A security protocol for encrypting data during transit.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A way to automatically generate documentation for a database schema.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Sharding is a technique for horizontal partitioning that distributes data across multiple machines. It solves the problem of scalability by allowing a database to handle a larger volume of data and traffic than a single server can."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is a 'subquery' and what is its main purpose?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A query nested inside another query, used to perform operations that can't be done with a single query.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A method for joining two or more tables together.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A way to define a new table in a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A tool for visualizing database relationships.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A subquery is a query within another SQL query. It is used to return data that will be used in the main query as a condition to further restrict the data to be retrieved."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'Read-Heavy vs. Write-Heavy' workloads.",
+    "options": [
+      {
+        "id": "1",
+        "text": "A read-heavy workload has a high volume of read operations, while a write-heavy workload has a high volume of write (INSERT, UPDATE, DELETE) operations.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "Read-heavy workloads are for SQL databases, and write-heavy workloads are for NoSQL databases.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Read-heavy workloads are always faster than write-heavy workloads.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "They are different terms for the same concept.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "This distinction is crucial for database design and optimization. A read-heavy application requires a system optimized for fetching data quickly, while a write-heavy one needs a system that can handle a high volume of concurrent data changes efficiently."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is 'NoSQL' and how does it differ from a relational database?",
+    "options": [
+      {
+        "id": "1",
+        "text": "NoSQL is a type of database that uses the Structured Query Language (SQL).",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "NoSQL databases use a schema-less, non-tabular approach, prioritizing horizontal scalability and flexible data models over strict data integrity.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "NoSQL databases can only be used for small applications.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no significant difference, just a different name.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "NoSQL databases, such as MongoDB and Cassandra, provide a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "In database administration, what is a 'replication lag'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "The time it takes to create a backup of a database.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "The delay between when a change is made on the primary database and when it appears on the secondary (replica) database.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "The time it takes to restore a database from a backup.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A security vulnerability that allows an attacker to replicate a database.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Replication lag is a key metric in a replicated database system. It measures the time difference between the changes on the master and their propagation to the replica, which can impact data consistency."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is the primary difference between `LEFT OUTER JOIN` and `FULL OUTER JOIN`?",
+    "options": [
+      {
+        "id": "1",
+        "text": "LEFT OUTER JOIN returns all matching records, while FULL OUTER JOIN returns only non-matching records.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "LEFT OUTER JOIN returns all records from the left table and matching records from the right, while FULL OUTER JOIN returns all records from both tables, with nulls for non-matching records.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "FULL OUTER JOIN is a newer syntax for LEFT OUTER JOIN.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no functional difference between them.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A LEFT OUTER JOIN returns all records from the left table and any matched records from the right table. A FULL OUTER JOIN returns all records when there is a match in either the left or right table."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is a 'Materialized View' and what is its purpose?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A logical view that is created and managed by the database.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A physical copy of a view, where the data is precomputed and stored to improve query performance on complex, data-intensive queries.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A view that is used for administrative tasks only.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A view that is automatically updated in real-time.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A materialized view is a database object that contains the results of a query. It is a physical table that stores the query result, and it is refreshed from the base tables periodically, which can be a huge performance boost for reporting and data warehousing."
+  },
+  {
+    "category": "DB",
+    "difficulty": "hard",
+    "question": "What is 'Normalization' and why is '3rd Normal Form' considered a good practice?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A process of adding redundant data to tables to improve performance.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A process of organizing data to reduce redundancy; 3rd Normal Form (3NF) eliminates transitive dependencies, which prevents most data anomalies without being overly complex.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to enforce consistency across a database instantly.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A security protocol that encrypts all data in a table.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Normalization is the process of organizing data to reduce redundancy. The 3rd Normal Form (3NF) ensures that all non-key attributes in a table are dependent on the primary key, which is a good balance between data integrity and performance."
+  },
+  
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "What is the time complexity of pushing an element onto a stack?",
+    "options": [
+      {
+        "id": "1",
+        "text": "O(n)",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "O(log n)",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "O(1)",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "O(n^2)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Pushing an element onto a stack, which involves adding an element to the top, is a constant time operation, as it does not depend on the size of the stack."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "Which of the following is a linear data structure?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Binary Search Tree",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Hash Table",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Queue",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "Graph",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A queue is a linear data structure because elements are arranged in a sequential order. Trees, hash tables, and graphs are non-linear."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "What is the key feature of a 'hash table'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "It stores elements in a sorted order.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "It provides constant-time average access for key-value pairs.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "It is a linear data structure that follows a LIFO principle.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "It is a tree-like data structure used for hierarchical data.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A hash table is a data structure that maps keys to values using a hash function. It provides highly efficient average-case time complexity for lookups, insertions, and deletions."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "What is the time complexity of searching for an element in an unsorted array?",
+    "options": [
+      {
+        "id": "1",
+        "text": "O(1)",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "O(n^2)",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "O(log n)",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "O(n)",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "In an unsorted array, you have to check every element in the worst case to find a specific item. This results in a linear time complexity of O(n)."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "easy",
+    "question": "What is a 'node' in a linked list?",
+    "options": [
+      {
+        "id": "1",
+        "text": "An element that stores only data.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An element that stores data and a pointer to the next element.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "An array that stores a list of elements.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A key-value pair in a hash table.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A node in a linked list is a fundamental building block that contains the data and a pointer (or reference) to the next node in the sequence."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is 'dynamic programming'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A problem-solving method that solves a problem by breaking it down into smaller sub-problems and solving them recursively.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An optimization technique that solves complex problems by breaking them into smaller, overlapping sub-problems and storing their results to avoid re-computation.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A type of algorithm that makes a locally optimal choice at each stage with the hope of finding a global optimum.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A programming paradigm for developing event-driven applications.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Dynamic programming is both a mathematical optimization method and a computer programming method. It solves complex problems by breaking them down into simpler sub-problems and then storing the results of these sub-problems to avoid re-computing them."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is the difference between a 'Binary Tree' and a 'Binary Search Tree'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A Binary Tree has a maximum of two children per node, while a Binary Search Tree has no restrictions on the number of children.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A Binary Search Tree is a specific type of Binary Tree where the left child's value is less than the parent's, and the right child's is greater.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A Binary Search Tree is always a balanced tree, while a Binary Tree can be unbalanced.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no difference; they are different terms for the same concept.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A Binary Search Tree (BST) is a type of Binary Tree that maintains an ordered property, allowing for efficient searching, insertion, and deletion of nodes."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is the time complexity of inserting an element into a sorted linked list?",
+    "options": [
+      {
+        "id": "1",
+        "text": "O(1)",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "O(log n)",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "O(n)",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "O(n log n)",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "To insert an element into a sorted linked list, you must traverse the list from the beginning to find the correct position. In the worst case, this requires iterating through all 'n' elements, resulting in a time complexity of O(n)."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is a 'Trie' data structure?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A self-balancing binary search tree.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A tree-like data structure used for efficient retrieval of a key in a dataset of strings, such as in an autocomplete system.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A data structure for storing graphs with weighted edges.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A linear data structure used for storing elements in a specific order.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A Trie (also known as a prefix tree) is an ordered tree data structure used to store a dynamic set or associative array where the keys are usually strings. It is highly efficient for tasks involving string prefixes."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "In a 'Graph', what is 'Breadth-First Search (BFS)'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "An algorithm that explores as far as possible along each branch before backtracking.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An algorithm that explores all the neighbor nodes at the present depth before moving on to the nodes at the next depth.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to find the shortest path in a weighted graph.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "An algorithm for finding the minimum spanning tree of a graph.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "BFS starts at a source vertex and explores all of its immediate neighbors, then all of their neighbors, and so on. It is typically implemented with a queue and is useful for finding the shortest path in an unweighted graph."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "What is the purpose of a 'doubly linked list'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To reduce memory usage compared to a singly linked list.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "To allow traversal in both forward and backward directions.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "To provide constant-time access to any element by its index.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To ensure that the list is always sorted.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A doubly linked list has a pointer to the previous node as well as the next node. This allows for efficient traversal in both directions and easier deletion of a node."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "medium",
+    "question": "Which of the following sorting algorithms is stable and has a time complexity of O(n log n) in all cases?",
+    "options": [
+      {
+        "id": "1",
+        "text": "Quick Sort",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "Heap Sort",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "Merge Sort",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "Insertion Sort",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Merge Sort is a stable sorting algorithm that has a time complexity of O(n log n) in the best, average, and worst cases, making it a reliable choice for sorting."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the 'Traveling Salesman Problem' an example of?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A problem that can be solved with a greedy algorithm.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A problem that can be solved with dynamic programming.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "An NP-hard problem, which means there is no known polynomial-time algorithm to solve it.",
+        "isCorrect": true
+      },
+      {
+        "id": "4",
+        "text": "A problem that is solvable in constant time.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Traveling Salesman Problem is an NP-hard problem in combinatorial optimization, meaning no efficient algorithm is known that can find the optimal solution for all cases in polynomial time."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "In a 'Graph', what is 'Dijkstra's algorithm' used for?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To find the shortest path from a single source vertex to all other vertices in a weighted graph with non-negative edge weights.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "To find the shortest paths between all pairs of vertices in a weighted graph.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To find the minimum spanning tree of a graph.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To perform a breadth-first search on a graph.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Dijkstra's algorithm is a greedy algorithm that finds the shortest path from a starting node to all other nodes in a weighted graph with non-negative edge weights."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the purpose of the 'master theorem' in algorithm analysis?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To solve recurrence relations that arise in the analysis of many divide-and-conquer algorithms.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "To prove the correctness of a greedy algorithm.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To determine the best-case time complexity of a sorting algorithm.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To find the minimum spanning tree of a graph.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The master theorem provides a cookbook method for solving recurrence relations of the form $T(n) = aT(n/b) + f(n)$, which are common in divide-and-conquer algorithms like Merge Sort and Quick Sort."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the primary difference between a 'Binary Heap' and a 'Binary Search Tree'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A Binary Heap is a linear data structure, while a Binary Search Tree is a non-linear data structure.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A Binary Heap is a complete binary tree where elements are ordered by value, while a Binary Search Tree has a specific ordering rule for its nodes to enable efficient searching.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A Binary Search Tree is always balanced, while a Binary Heap can be unbalanced.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A Binary Heap is used for priority queues, while a Binary Search Tree is used for sorting.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The key difference is in their ordering properties. A Binary Heap maintains a 'heap property' (parent value is greater/less than child values), while a BST maintains an ordered property that allows for efficient searching (left child is less than parent, right is greater)."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is 'memoization' in the context of dynamic programming?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A method to solve a problem by dividing it into smaller sub-problems.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "A technique for storing the results of expensive function calls and returning the cached result when the same inputs occur again.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A way to optimize the space complexity of a recursive algorithm.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A technique for converting a recursive solution into an iterative one.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "Memoization is a top-down dynamic programming technique that involves caching the results of function calls to avoid recomputing them later. It is used to optimize performance by reducing redundant calculations."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is a 'hash collision' and how can it be handled?",
+    "options": [
+      {
+        "id": "1",
+        "text": "When two different keys generate the same hash value and are mapped to the same index; it can be handled with techniques like chaining or open addressing.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "When a hash table is full and a new element cannot be inserted.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "When the hash function takes too long to compute a hash value.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "When a key is not found in the hash table.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A hash collision is a situation that occurs when two distinct input values to a hash function produce the same hash value. It can be resolved by using separate chaining (storing a list of elements at each index) or open addressing (probing for an empty slot)."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the 'Knuth-Morris-Pratt (KMP)' algorithm used for?",
+    "options": [
+      {
+        "id": "1",
+        "text": "To find the shortest path in a graph with negative edge weights.",
+        "isCorrect": false
+      },
+      {
+        "id": "2",
+        "text": "An efficient algorithm for searching for a pattern within a text string.",
+        "isCorrect": true
+      },
+      {
+        "id": "3",
+        "text": "A method to compress a file to save storage space.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A sorting algorithm that has a linear time complexity.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The KMP algorithm searches for occurrences of a 'word' W within a main 'text' string S by using a precomputed prefix table to avoid re-checking characters that have already been matched. It has a time complexity of O(n)."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is a 'Disjoint Set' (Union-Find) data structure?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A data structure for storing a collection of elements that are partitioned into a number of non-overlapping sets, and to perform operations to find the set an element belongs to and to merge sets.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "To efficiently find the shortest path in a graph.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "To sort an array of elements in a specific order.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "To manage memory allocation in a heap.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "The Union-Find data structure is used to keep track of a set of elements partitioned into a number of disjoint subsets. It's used in algorithms like Kruskal's for finding the minimum spanning tree."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is the key difference between 'Breadth-First Search (BFS)' and 'Depth-First Search (DFS)'?",
+    "options": [
+      {
+        "id": "1",
+        "text": "BFS explores all the neighbor nodes at the present depth before moving on, while DFS explores as far as possible along each branch before backtracking.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "BFS is for undirected graphs, and DFS is for directed graphs.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "BFS uses a stack and is more memory-efficient, while DFS uses a queue and is less memory-efficient.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "There is no functional difference between them.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "BFS uses a queue to explore nodes level by level, while DFS uses a stack (or recursion) to explore as deeply as possible along a single branch before backtracking. This leads to different traversal patterns."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "hard",
+    "question": "What is a 'Red-Black Tree' and what is its primary advantage?",
+    "options": [
+      {
+        "id": "1",
+        "text": "A self-balancing binary search tree that guarantees a logarithmic time complexity for insertions, deletions, and lookups.",
+        "isCorrect": true
+      },
+      {
+        "id": "2",
+        "text": "A type of linked list that allows for constant-time access to any element.",
+        "isCorrect": false
+      },
+      {
+        "id": "3",
+        "text": "A data structure for storing strings with a focus on prefix matching.",
+        "isCorrect": false
+      },
+      {
+        "id": "4",
+        "text": "A tree where every node has a pointer to its parent.",
+        "isCorrect": false
+      }
+    ],
+    "explanation": "A Red-Black Tree is a type of self-balancing binary search tree. Its balancing property ensures that the tree height is always logarithmic, which guarantees O(log n) time complexity for all basic operations, making it highly efficient."
+  }
+]

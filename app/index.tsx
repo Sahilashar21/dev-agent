@@ -6,6 +6,7 @@ import { ImageBackground, ScrollView, StyleSheet, Text, TouchableOpacity, View }
 export default function HomeScreen() {
   const router = useRouter();
 
+  
   const features = [
     {
       title: "Roadmap",
@@ -69,6 +70,7 @@ export default function HomeScreen() {
   ];
 
   return (
+    
     <ScrollView style={styles.container}>
       {/* Hero Section */}
       <View style={styles.heroContainer}>
