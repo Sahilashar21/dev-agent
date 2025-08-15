@@ -72,17 +72,20 @@ const TutorialsScreen = () => {
 
   if (selectedVideo) {
     const aiPrompt = `
-You are Dev Agent AI – a coding mentor.
-Skill level: ${skillLevel}
-Video: https://www.youtube.com/watch?v=${selectedVideo.id.videoId}
-User explanation: ${reflection}
+  You are Dev Agent AI – a coding mentor.
+  Skill level: ${skillLevel}
+  Video: https://www.youtube.com/watch?v=${selectedVideo.id.videoId}
+  User explanation: ${reflection}
+  You are a friendly tutor AI. Address the learner directly as "You" and "Your" in all explanations and feedback.
 
-Tasks:
-1. Evaluate understanding
-2. Correct mistakes/gaps
-3. Give improved explanation
-4. Suggest next steps
-`;
+  Tasks:
+  1. Analyze video content
+  2. Evaluate understanding and Check whether it aligns with Video content
+  3. Understand User ${skillLevel}
+  4. Correct mistakes/gaps
+  5. Give improved explanation
+  6. Suggest next steps
+  `;
 
     return (
       <View style={{ flex: 1 }}>
@@ -99,7 +102,13 @@ Tasks:
             style={styles.reflectionInput}
             multiline
           />
-          <GeminiChat prompt={aiPrompt} disabled={!reflection.trim()} />
+          <GeminiChat
+            prompt={aiPrompt}
+            disabled={!reflection.trim()}
+            skillLevel={skillLevel} // <-- add this
+            videoTitle={selectedVideo.snippet.title}
+          />
+
           <Button
             title="Back to Search"
             onPress={() => setSelectedVideo(null)}

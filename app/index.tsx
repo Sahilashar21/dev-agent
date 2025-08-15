@@ -6,8 +6,15 @@ import { ImageBackground, ScrollView, StyleSheet, Text, TouchableOpacity, View }
 export default function HomeScreen() {
   const router = useRouter();
 
-  
-  const features = [
+  type Feature = {
+  title: string;
+  description: string;
+  color: string;
+  icon: string;
+  route?: "/roadmap" | "/chat" | "/quiz" | "/tutorials"; // etc.
+  enabled: boolean;
+};
+  const features: Feature[] = [
     {
       title: "Roadmap",
       description: "Structured learning paths for different development domains",

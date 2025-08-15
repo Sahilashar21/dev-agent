@@ -66,11 +66,25 @@ export default WrongAnswerExplanation;
 
 const markdownStyles = {
   body: { fontSize: 15, color: "#333" },
-  heading1: { fontSize: 20, fontWeight: "bold", color: "#1E88E5", marginBottom: 8 },
-  strong: { fontWeight: "700" },
-  code_inline: { backgroundColor: "#e0e0e0", borderRadius: 4, paddingHorizontal: 4, paddingVertical: 2, fontFamily: "monospace", fontSize: 14 },
-  code_block: { backgroundColor: "#f4f4f4", padding: 10, borderRadius: 6, fontFamily: "monospace", fontSize: 14 },
+  heading1: { fontSize: 20, fontWeight: "bold" as const, color: "#1E88E5", marginBottom: 8 },
+  strong: { fontWeight: "bold" as const }, // fix
+  code_inline: {
+    backgroundColor: "#e0e0e0",
+    borderRadius: 4,
+    paddingHorizontal: 4,
+    paddingVertical: 2,
+    fontFamily: "monospace",
+    fontSize: 14,
+  },
+  code_block: {
+    backgroundColor: "#f4f4f4",
+    padding: 10,
+    borderRadius: 6,
+    fontFamily: "monospace",
+    fontSize: 14,
+  },
 };
+
 
 const styles = StyleSheet.create({
   container: { padding: 16, marginTop: 16, borderRadius: 12, backgroundColor: "#fff3f0", borderLeftWidth: 4, borderLeftColor: "#FF5722" },

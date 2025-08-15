@@ -106,7 +106,7 @@ const markdownStyles = {
     marginBottom: 8,
   },
   strong: {
-    fontWeight: '700',
+    fontWeight: '700' as const,
   },
   code_inline: {
     backgroundColor: '#e0e0e0',
@@ -116,7 +116,6 @@ const markdownStyles = {
     fontFamily: 'monospace',
     fontSize: 14,
     color: '#000',
-    flexWrap: 'wrap',         // ✅ wrap long inline code
   },
   code_block: {
     backgroundColor: '#f4f4f4',

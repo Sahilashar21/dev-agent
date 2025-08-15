@@ -1,8 +1,10 @@
-import { Stack, useRouter } from 'expo-router';
+import { Stack, useRouter, useSegments } from 'expo-router';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function Layout() {
   const router = useRouter();
+const segments = useSegments(); // gives current path segments
+  const isChat = segments[segments.length - 1] === 'chat';
 
   return (
     <Stack
@@ -23,6 +25,8 @@ export default function Layout() {
         ),
         headerStyle: styles.header,
         headerTintColor: '#fff',
+        headerShown: !isChat, // hide header ONLY for ChatScreen
+
       }}
     />
   );
