@@ -1,15 +1,16 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   ActivityIndicator,
-  Button,
   ScrollView,
   StyleSheet,
   Text,
   TextInput,
+  TouchableOpacity,
   View,
 } from 'react-native';
-import Markdown from 'react-native-markdown-display'; // ✅ Markdown import
+import Markdown from 'react-native-markdown-display';
 
 const GEMINI_API_KEY = 'AIzaSyCtuMoqszvl0tyjtf8tkTfLn4XhFJ0vPE0';
 
@@ -17,6 +18,33 @@ const ChatScreen = () => {
   const [messages, setMessages] = useState<{ sender: 'user' | 'bot'; text: string }[]>([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
+
+  // Load chat history on mount
+  useEffect(() => {
+    const loadHistory = async () => {
+      try {
+        const savedMessages = await AsyncStorage.getItem('chatHistory');
+        if (savedMessages) {
+          setMessages(JSON.parse(savedMessages));
+        }
+      } catch (error) {
+        console.error('Failed to load chat history:', error);
+      }
+    };
+    loadHistory();
+  }, []);
+
+  // Save chat history whenever messages update
+  useEffect(() => {
+    const saveHistory = async () => {
+      try {
+        await AsyncStorage.setItem('chatHistory', JSON.stringify(messages));
+      } catch (error) {
+        console.error('Failed to save chat history:', error);
+      }
+    };
+    if (messages.length > 0) saveHistory();
+  }, [messages]);
 
   const handleSend = async () => {
     if (!input.trim()) return;
@@ -27,39 +55,53 @@ const ChatScreen = () => {
     setLoading(true);
 
     try {
-      const prompt = `
+const prompt = `
 You are Dev Agent AI – a smart, helpful programming assistant.
 
-You must ONLY answer questions related to **software development** such as:
-- Frontend (React, HTML, CSS, etc.)
-- Backend (Node.js, APIs, Databases, etc.)
-- Fullstack development
-- Programming languages (JavaScript, Python, etc.)
-- Data Structures & Algorithms
-- Version Control (Git, GitHub)
-- App Development (Web, Mobile)
-- Tools (VS Code, IDEs, Docker)
-- Deployment (Netlify, Vercel, Firebase)
-- Cloud platforms (AWS, GCP)
-- Security, Testing, Performance
-- Any real-world use in software dev career
+You must ONLY answer questions related to:
+- Software development:
+  - Frontend (React, HTML, CSS, etc.)
+  - Backend (Node.js, APIs, Databases, etc.)
+  - Fullstack development
+  - Programming languages (JavaScript, Python, etc.)
+  - Data Structures & Algorithms
+  - Version Control (Git, GitHub)
+  - App Development (Web, Mobile)
+  - Tools (VS Code, IDEs, Docker)
+  - Deployment (Netlify, Vercel, Firebase)
+  - Cloud platforms (AWS, GCP)
+  - Security, Testing, Performance
+  - Any real-world use in a software dev career
 
-❌ If the question is unrelated (like history, cooking, jokes, or general topics), politely reply:
-"I'm designed to help only with software development-related queries."
+- Cybersecurity:
+  - Best practices for securing applications, networks, and data
+  - Explaining cyber threats (phishing, ransomware, malware, etc.)
+  - Secure coding practices
+  - Ethical hacking and penetration testing basics
+  - Incident response guidelines
+
+When the user reports being hacked, scammed, or facing a cyberattack:
+- Ask clarifying questions if needed (e.g., "Was it a social media account, bank account, or device?")
+- Give calm, step-by-step emergency guidance relevant to India.
+- Always include CERT-In contact info and the National Cyber Crime Reporting Portal link.
+- Adapt wording to the situation — avoid repeating the same phrases every time.
+- If it's about banking, emphasize contacting the bank immediately before anything else.
+- If it's about social media, suggest reporting to the platform and changing passwords.
+✅ If the user greets you, greet them back politely and warmly.
+
+❌ If the question is unrelated to software development or cybersecurity, politely reply:
+"I'm designed to help only with software development and cybersecurity-related queries."
 
 User: ${userMessage}
 `;
+
 
       const res = await axios.post(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`,
         {
           contents: [{ parts: [{ text: prompt }] }],
         },
-        {
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        }
+        { headers: { 'Content-Type': 'application/json' } }
       );
 
       const reply =
@@ -71,13 +113,19 @@ User: ${userMessage}
       console.error('Error:', error);
       setMessages(prev => [
         ...prev,
-        {
-          sender: 'bot',
-          text: 'Sorry, something went wrong reaching Dev Agent AI.',
-        },
+        { sender: 'bot', text: 'Sorry, something went wrong reaching Dev Agent AI.' },
       ]);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleClearChat = async () => {
+    try {
+      await AsyncStorage.removeItem('chatHistory');
+      setMessages([]);
+    } catch (error) {
+      console.error('Failed to clear chat history:', error);
     }
   };
 
@@ -111,8 +159,18 @@ User: ${userMessage}
           placeholder="Ask about anything in development..."
           style={styles.input}
         />
-        <Button title="Send" onPress={handleSend} disabled={loading} />
+        <TouchableOpacity
+          style={styles.sendButton}
+          onPress={handleSend}
+          disabled={loading}
+        >
+          <Text style={styles.sendButtonText}>Send</Text>
+        </TouchableOpacity>
       </View>
+
+      <TouchableOpacity style={styles.clearButton} onPress={handleClearChat}>
+        <Text style={styles.clearButtonText}>Clear Chat</Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -157,6 +215,29 @@ const styles = StyleSheet.create({
     borderRadius: 6,
     marginRight: 8,
     paddingHorizontal: 10,
+  },
+  sendButton: {
+    backgroundColor: '#3D5AFE',
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    borderRadius: 6,
+  },
+  sendButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  clearButton: {
+    backgroundColor: '#1E88E5',
+    paddingVertical: 10,
+    borderRadius: 6,
+    marginTop: 10,
+    alignItems: 'center',
+  },
+  clearButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });
 

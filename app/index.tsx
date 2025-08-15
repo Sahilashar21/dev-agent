@@ -37,7 +37,8 @@ export default function HomeScreen() {
       description: "Hands-on learning experiences to enhance your skills",
       color: "#F59E0B",
       icon: "desktop-outline",
-      enabled: false,
+      route: "/tutorials",
+      enabled: true,
     },
     {
       title: "News Updates",

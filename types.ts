@@ -43,8 +43,7 @@ export interface RoadmapStep {
   path: TopicPath;
 }
 
-// Navigation stack params (React Navigation v6)
-// types.ts
+// Navigation stack params
 export type RootStackParamList = {
   Home: undefined;
   Roadmap: { topic: string };
@@ -53,10 +52,20 @@ export type RootStackParamList = {
   AddQuiz: undefined;
   ViewQuizzes: undefined;
   QuizDetails: { quizId: string };
-  QuizQuestions: { quizId: string }; // ✅ Required param
+  QuizQuestions: { quizId: string };
   TutorChatbot: undefined;
   DSAMastery: undefined;
   Tutorials: undefined;
   News: undefined;
   QuizHome: undefined;
+
+  // 📌 New screens for tutorial feedback flow
+  TutorialFeedback: {
+    skillLevel: string;
+    videoLink: string;
+    reflection: string;
+  };
+  Chat: {
+    initialMessage: string;
+  };
 };
