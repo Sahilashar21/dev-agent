@@ -54,20 +54,7 @@ export default function HomeScreen() {
       icon: "newspaper-outline",
       enabled: false,
     },
-    {
-      title: "Developer Guide",
-      description: "Guidance for your career path in software development",
-      color: "#14B8A6",
-      icon: "briefcase-outline",
-      enabled: false,
-    },
-    {
-      title: "Tutor Chatbot",
-      description: "Get personalized help from our AI tutor",
-      color: "#6366F1",
-      icon: "help-circle-outline",
-      enabled: false,
-    },
+    
     {
       title: "DSA Mastery Hub",
       description: "Master Data Structures and Algorithms",

@@ -1,32 +1,82 @@
 import { Stack, useRouter, useSegments } from 'expo-router';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { useEffect, useRef, useState } from 'react';
+import { Animated, Easing, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function Layout() {
   const router = useRouter();
-const segments = useSegments(); // gives current path segments
+  const segments = useSegments();
   const isChat = segments[segments.length - 1] === 'chat';
+
+  const fullText = "Dev Agent";
+  const [displayText, setDisplayText] = useState('');
+  const indexRef = useRef(0);
+  const forwardRef = useRef(true);
+
+  // Typing and deleting animation
+useEffect(() => {
+let timeout: ReturnType<typeof setTimeout>;
+  const typingDelay = 250;
+  const pauseDelay = 12000;
+
+  const type = () => {
+    if (forwardRef.current) {
+      indexRef.current += 1;
+      setDisplayText(fullText.slice(0, indexRef.current));
+      if (indexRef.current >= fullText.length) {
+        timeout = setTimeout(() => { forwardRef.current = false; type(); }, pauseDelay);
+        return;
+      }
+    } else {
+      indexRef.current -= 1;
+      setDisplayText(fullText.slice(0, indexRef.current));
+      if (indexRef.current <= 0) {
+        forwardRef.current = true;
+      }
+    }
+    timeout = setTimeout(type, typingDelay);
+  };
+
+  type();
+  return () => clearTimeout(timeout);
+}, []);
+
+  // Blinking cursor
+  const blinkAnim = useRef(new Animated.Value(0)).current;
+  useEffect(() => {
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(blinkAnim, { toValue: 1, duration: 500, easing: Easing.linear, useNativeDriver: false }),
+        Animated.timing(blinkAnim, { toValue: 0, duration: 500, easing: Easing.linear, useNativeDriver: false }),
+      ])
+    ).start();
+  }, []);
 
   return (
     <Stack
       screenOptions={{
-        headerTitle: () => <Text style={styles.headerTitle}>Dev Agent</Text>,
+        headerTitle: () => (
+          <View style={{ flexDirection: 'row' }}>
+            <Text style={styles.headerTitle}>{displayText}</Text>
+            <Animated.Text
+              style={[
+                styles.headerTitle,
+                { opacity: blinkAnim },
+              ]}
+            >
+              |
+            </Animated.Text>
+          </View>
+        ),
         headerRight: () => (
           <View style={styles.headerButtons}>
-            <TouchableOpacity onPress={() => router.push('/roadmap')}>
-              <Text style={styles.headerButtonText}>Roadmap</Text>
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => router.push('/chat')}>
-              <Text style={styles.headerButtonText}>Chat</Text>
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => router.push('/quiz')}>
-              <Text style={styles.headerButtonText}>Quiz</Text>
+            <TouchableOpacity onPress={() => router.push('/')}>
+              <Text style={styles.headerButtonText}>Home</Text>
             </TouchableOpacity>
           </View>
         ),
         headerStyle: styles.header,
         headerTintColor: '#fff',
-        headerShown: !isChat, // hide header ONLY for ChatScreen
-
+        headerShown: !isChat,
       }}
     />
   );
@@ -52,106 +102,17 @@ const styles = StyleSheet.create({
   headerButtons: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 15,
+    gap: 10,
     marginRight: 10,
   },
   headerButtonText: {
     color: '#E3F2FD',
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '500',
-    paddingVertical: 4,
-    paddingHorizontal: 8,
-    borderRadius: 6,
-    backgroundColor: '#3D5AFE30', // semi-transparent blue
+    paddingVertical: 2,
+    paddingHorizontal: 6,
+    borderRadius: 4,
+    backgroundColor: '#3D5AFE30',
     overflow: 'hidden',
   },
 });
-
-// import { Ionicons } from '@expo/vector-icons';
-// import { Stack, useRouter } from 'expo-router';
-// import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-
-// export default function Layout() {
-//   const router = useRouter();
-
-//   return (
-//     <>
-//       <Stack
-//         screenOptions={{
-//           headerTitle: () => <Text style={styles.headerTitle}>Dev Agent</Text>,
-//           headerStyle: styles.header,
-//           headerTintColor: '#fff',
-//         }}
-//       />
-
-//       <View style={styles.bodyContainer}>
-//         <Text style={styles.sectionTitle}>Explore Modules</Text>
-
-//         <TouchableOpacity style={styles.cardButton} onPress={() => router.push('/roadmap')}>
-//           <Ionicons name="map-outline" size={24} color="#3D5AFE" />
-//           <Text style={styles.cardText}>Developer Roadmap</Text>
-//         </TouchableOpacity>
-
-//         <TouchableOpacity style={styles.cardButton} onPress={() => router.push('/chat')}>
-//           <Ionicons name="chatbubbles-outline" size={24} color="#3D5AFE" />
-//           <Text style={styles.cardText}>Tutor Chatbot</Text>
-//         </TouchableOpacity>
-
-//         <TouchableOpacity style={styles.cardButton} onPress={() => router.push('/quiz')}>
-//           <Ionicons name="school-outline" size={24} color="#3D5AFE" />
-//           <Text style={styles.cardText}>Quiz & Practice</Text>
-//         </TouchableOpacity>
-//       </View>
-//     </>
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   header: {
-//     backgroundColor: '#1E2A78',
-//     borderBottomWidth: 1,
-//     borderBottomColor: '#0F172A',
-//     shadowColor: '#000',
-//     shadowOpacity: 0.1,
-//     shadowOffset: { width: 0, height: 2 },
-//     shadowRadius: 4,
-//     elevation: 5,
-//   },
-//   headerTitle: {
-//     fontSize: 20,
-//     fontWeight: '700',
-//     color: '#FFFFFF',
-//     letterSpacing: 0.5,
-//   },
-//   bodyContainer: {
-//     flex: 1,
-//     backgroundColor: '#F1F5F9',
-//     padding: 20,
-//   },
-//   sectionTitle: {
-//     fontSize: 18,
-//     fontWeight: '600',
-//     marginBottom: 20,
-//     color: '#1E293B',
-//     textAlign: 'center',
-//   },
-//   cardButton: {
-//     flexDirection: 'row',
-//     alignItems: 'center',
-//     backgroundColor: '#FFFFFF',
-//     padding: 16,
-//     borderRadius: 12,
-//     marginBottom: 16,
-//     shadowColor: '#000',
-//     shadowOpacity: 0.06,
-//     shadowOffset: { width: 0, height: 2 },
-//     shadowRadius: 8,
-//     elevation: 2,
-//   },
-//   cardText: {
-//     fontSize: 16,
-//     fontWeight: '500',
-//     marginLeft: 12,
-//     color: '#1E293B',
-//   },
-// });

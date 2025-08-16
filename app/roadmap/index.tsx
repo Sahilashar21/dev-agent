@@ -28,7 +28,14 @@ export default function RoadmapSelector() {
 
   return (
     <ScrollView style={{ padding: 20, backgroundColor: colors.background }}>
-      <Text style={{ fontSize: 20, fontWeight: '700', color: colors.textPrimary, marginBottom: 10 }}>
+      <Text
+        style={{
+          fontSize: 20,
+          fontWeight: '700',
+          color: colors.textPrimary,
+          marginBottom: 10,
+        }}
+      >
         Select a Roadmap
       </Text>
 
@@ -53,7 +60,9 @@ export default function RoadmapSelector() {
             borderRadius: 10,
             marginBottom: 20,
           },
+          placeholder: { color: colors.textSecondary },
         }}
+        placeholder={{ label: 'Choose a roadmap...', value: null }}
       />
 
       {data.map((step, idx) => (
@@ -62,6 +71,8 @@ export default function RoadmapSelector() {
           title={step.title}
           description={step.description}
           path={step.path}
+          color={colors.card} // pass theme color if your RoadmapCard supports it
+          textColor={colors.textPrimary} // pass text color
         />
       ))}
     </ScrollView>
