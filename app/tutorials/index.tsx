@@ -13,6 +13,7 @@ import {
 } from "react-native";
 import { WebView } from "react-native-webview";
 import GeminiChat from "../chat/TutorialFeedback";
+import keywords from "./keywords.json"; // <-- import allowed keywords
 
 const YOUTUBE_API_KEY = "AIzaSyAd9P05ulxkYmvq6ildp36uWUvefE8d4MQ";
 
@@ -37,6 +38,13 @@ const TutorialsScreen = () => {
   const fetchVideos = async () => {
     if (!searchQuery || !skillLevel) {
       alert("Enter query & select skill level");
+      return;
+    }
+
+    // ✅ Check if query exists in keywords.json
+    const lowerCaseKeywords = keywords.map((k) => k.toLowerCase());
+    if (!lowerCaseKeywords.includes(searchQuery.toLowerCase())) {
+      alert("❌ Invalid keyword. Please use only the allowed keywords.");
       return;
     }
 
@@ -72,20 +80,20 @@ const TutorialsScreen = () => {
 
   if (selectedVideo) {
     const aiPrompt = `
-  You are Dev Agent AI – a coding mentor.
-  Skill level: ${skillLevel}
-  Video: https://www.youtube.com/watch?v=${selectedVideo.id.videoId}
-  User explanation: ${reflection}
-  You are a friendly tutor AI. Address the learner directly as "You" and "Your" in all explanations and feedback.
+    You are Dev Agent AI – a coding mentor.
+    Skill level: ${skillLevel}
+    Video: https://www.youtube.com/watch?v=${selectedVideo.id.videoId}
+    User explanation: ${reflection}
+    You are a friendly tutor AI. Address the learner directly as "You" and "Your" in all explanations and feedback.
 
-  Tasks:
-  1. Analyze video content
-  2. Evaluate understanding and Check whether it aligns with Video content
-  3. Understand User ${skillLevel}
-  4. Correct mistakes/gaps
-  5. Give improved explanation
-  6. Suggest next steps
-  `;
+    Tasks:
+    1. Analyze video content
+    2. Evaluate understanding and Check whether it aligns with Video content
+    3. Understand User ${skillLevel}
+    4. Correct mistakes/gaps
+    5. Give improved explanation
+    6. Suggest next steps
+    `;
 
     return (
       <View style={{ flex: 1 }}>
@@ -105,10 +113,9 @@ const TutorialsScreen = () => {
           <GeminiChat
             prompt={aiPrompt}
             disabled={!reflection.trim()}
-            skillLevel={skillLevel} // <-- add this
+            skillLevel={skillLevel}
             videoTitle={selectedVideo.snippet.title}
           />
-
           <Button
             title="Back to Search"
             onPress={() => setSelectedVideo(null)}
@@ -125,7 +132,7 @@ const TutorialsScreen = () => {
       <TextInput
         value={searchQuery}
         onChangeText={setSearchQuery}
-        placeholder="Search topic..."
+        placeholder="Enter allowed keyword..."
         style={styles.searchInput}
       />
       <View style={styles.skillContainer}>

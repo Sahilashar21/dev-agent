@@ -52,7 +52,8 @@ export default function HomeScreen() {
       description: "Stay updated with the latest in tech and development",
       color: "#EF4444",
       icon: "newspaper-outline",
-      enabled: false,
+      route: "/news",
+      enabled: true,
     },
     
     {
