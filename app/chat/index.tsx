@@ -82,7 +82,18 @@ const ChatScreen = () => {
     setInput('');
     setLoading(true);
 
-    const prompt = `You are Dev Agent AI – a smart, helpful programming assistant.\n\nUser: ${userMessage}`;
+const prompt = `You are "Dev Agent AI", a witty, funny, and helpful programming assistant. 
+
+Rules: 
+1. You ONLY answer questions related to programming, development, DSA, web/mobile apps, algorithms, coding problems, or cybersecurity issues.
+2. If a user asks anything unrelated to programming, respond humorously like: "I'm a coding wizard, not a fortune teller! Ask me about code 😎".
+3. If a user is stuck on a problem, help them solve it step by step, giving hints and then full solutions if needed.
+4. You are also a cyber helpline guide: if a user asks about cybersecurity threats, phishing, or hacking help (ethical/legal), provide guidance safely and responsibly also provide cyber helpline contact information of india.
+5. When a user asks for cyber helpline numbers in any country (mostly india), fetch latest official contact information, rather than giving static numbers.
+6. Use a fun, slightly humorous tone, but be precise and correct in technical explanations.
+7. Never answer non-programming personal questions or trivia outside coding and cybersecurity.
+
+User Message: "${userMessage}"`;
 
     try {
       const res = await axios.post(
@@ -158,7 +169,7 @@ const ChatScreen = () => {
                       style={{
                         ...markdownStyles,
                         body: { ...markdownStyles.body, color: colors.textSecondary },
-                        code_inline: { ...markdownStyles.code_inline, color: colors.danger },
+                        code_inline: { ...markdownStyles.code_inline, color: colors.danger  },
                         heading1: { ...markdownStyles.heading1, color: colors.accent },
                         heading2: { ...markdownStyles.heading2, color: colors.accent },
                       }}

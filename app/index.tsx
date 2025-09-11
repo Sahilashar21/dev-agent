@@ -11,7 +11,7 @@ export default function HomeScreen() {
   description: string;
   color: string;
   icon: string;
-  route?: "/roadmap" | "/chat" | "/quiz" | "/tutorials"; // etc.
+  route?: "/roadmap" | "/chat" | "/quiz" | "/tutorials" | "/news" | "/dsa";
   enabled: boolean;
 };
   const features: Feature[] = [
@@ -61,7 +61,8 @@ export default function HomeScreen() {
       description: "Master Data Structures and Algorithms",
       color: "#EC4899",
       icon: "layers-outline",
-      enabled: false,
+      route: "/dsa",
+      enabled: true,
     },
   ];
 
@@ -106,6 +107,7 @@ export default function HomeScreen() {
         ))}
       </View>
     </ScrollView>
+    
   );
 }
 
