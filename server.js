@@ -43,23 +43,22 @@ const Problem = mongoose.model("Problem", problemSchema);
 
 // ✅ Signup
 app.post("/signup", async (req, res) => {
-  const { name, email, password } = req.body;
+  const { email, password } = req.body;
   try {
-    if (!name || !email || !password) {
+    if (!email || !password) {
       return res.status(400).json({ message: "All fields are required" });
     }
     const existing = await User.findOne({ email });
     if (existing) return res.status(400).json({ message: "User already exists" });
 
     const hashed = await bcrypt.hash(password, 10);
-    const newUser = new User({ name, email, password: hashed });
+    const newUser = new User({ email, password: hashed });
     await newUser.save();
 
     res.status(201).json({
       message: "User created successfully",
       user: {
         id: newUser._id,
-        name: newUser.name,
         email: newUser.email,
         solvedCount: newUser.solvedCount,
         points: newUser.points,

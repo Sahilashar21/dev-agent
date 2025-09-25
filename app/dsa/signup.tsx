@@ -9,7 +9,7 @@ export default function SignupScreen() {
 
   const handleSignup = async () => {
     try {
-      const res = await fetch("http://localhost:5000/signup", {
+      const res = await fetch("http://10.0.2.2:5000/signup", {
         method: "POST",
         headers: {
           Accept: "application/json",
